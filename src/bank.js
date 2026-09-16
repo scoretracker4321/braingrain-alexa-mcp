@@ -40,6 +40,7 @@ function fromPack(raw, exam, subject) {
     subject,
     topic: x.t || subject,
     answer: x.a,
+    hasTa: Boolean(x.q2 && x.o2),
     en: { q: x.q, options: x.o, explanation: x.e || "" },
     ta: {
       q: fixArticle(x.q2 || x.q, subject),
@@ -51,7 +52,7 @@ function fromPack(raw, exam, subject) {
 
 async function loadSample() {
   const raw = JSON.parse(await readFile(SAMPLE_PATH, "utf8"));
-  return raw.questions.map((q) => ({ id: q.id, exam: raw.exam, subject: raw.subject, topic: q.topic, answer: q.answer, en: q.en, ta: q.ta }));
+  return raw.questions.map((q) => ({ id: q.id, exam: raw.exam, subject: raw.subject, topic: q.topic, answer: q.answer, hasTa: true, en: q.en, ta: q.ta }));
 }
 
 async function loadRemote(exam, subject) {

@@ -13,3 +13,8 @@ Running notes on what got in the way, for the hackathon friction-log bonus. Date
 - Importing server.js from tests started the HTTP listener and hung 
 ode --test; guarded listen behind an entrypoint check.
 - ESM re-import of bank.js with a different env needed a ?live query to bust the module cache.
+
+## 2026-09-16 — demo
+- Tamil mode was silently falling back to English for ~45% of live questions (packs are only ~55% translated). Fixed: Tamil mode now filters to questions with a real Tamil side.
+- Alexa+ isn't available in India, so the demo is a browser page that speaks MCP to the real server — rules allow a simulated Alexa+ experience.
+- Playwright ESM import ignores NODE_PATH; borrowed it via createRequire from another project.

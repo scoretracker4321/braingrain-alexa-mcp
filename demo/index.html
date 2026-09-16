@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Brain Grain Quiz Coach — simulated Alexa+ demo</title>
+<style>
+  * { box-sizing: border-box; margin: 0; }
+  body { width: 1280px; height: 720px; overflow: hidden; background: #0b0f14; color: #e8edf2; font-family: "Segoe UI", Inter, Arial, sans-serif; display: grid; grid-template-columns: 760px 520px; }
+  /* Left: simulated Echo Show screen */
+  #device { position: relative; padding: 36px 40px; background: radial-gradient(1200px 600px at 20% 0%, #14202c 0%, #0b0f14 60%); }
+  #device .hdr { display: flex; align-items: center; justify-content: space-between; color: #8fa3b8; font-size: 15px; }
+  #device .hdr b { color: #e8edf2; font-weight: 600; }
+  .ring { position: absolute; left: 0; right: 0; bottom: 0; height: 6px; background: linear-gradient(90deg, #00a8e1, #31c4ff, #00a8e1); opacity: 0; transition: opacity .3s; }
+  .ring.on { opacity: 1; animation: pulse 1.2s infinite; }
+  @keyframes pulse { 50% { opacity: .35; } }
+  #chat { margin-top: 84px; display: flex; flex-direction: column; justify-content: flex-end; gap: 16px; height: 540px; overflow: hidden; }
+  .bubble { max-width: 640px; padding: 16px 20px; border-radius: 18px; font-size: 19px; line-height: 1.32; white-space: pre-wrap; flex-shrink: 0; animation: rise .35s ease-out; }
+  @keyframes rise { from { transform: translateY(10px); opacity: 0; } }
+  .user { align-self: flex-end; background: #1f6feb; color: #fff; border-bottom-right-radius: 4px; }
+  .alexa { align-self: flex-start; background: #172230; border: 1px solid #243244; border-bottom-left-radius: 4px; }
+  .alexa .lab { font-size: 13px; color: #31c4ff; letter-spacing: .5px; text-transform: uppercase; margin-bottom: 6px; }
+  .verdict-ok { color: #3ddc84; font-weight: 700; }
+  .verdict-no { color: #ff7b72; font-weight: 700; }
+  /* Right: MCP wire log */
+  #wire { background: #070a0e; border-left: 1px solid #1c2530; padding: 28px 26px; font-family: Consolas, "Cascadia Mono", monospace; font-size: 13px; display: flex; flex-direction: column; }
+  #wire h2 { font: 600 13px "Segoe UI", sans-serif; letter-spacing: 1px; color: #8fa3b8; text-transform: uppercase; }
+  #wire h2 span { color: #3ddc84; }
+  #log { margin-top: 14px; flex: 1; overflow: hidden; display: flex; flex-direction: column; gap: 10px; }
+  .frame { border: 1px solid #1c2530; border-radius: 8px; padding: 10px 12px; white-space: pre-wrap; word-break: break-word; color: #b8c4d0; max-height: 150px; overflow: hidden; animation: rise .3s; }
+  .frame.req { border-color: #1f6feb55; }
+  .frame.res { border-color: #3ddc8455; }
+  .frame .k { color: #31c4ff; }
+  /* Caption bar */
+  #cap { position: absolute; left: 0; right: 520px; top: 84px; text-align: center; pointer-events: none; }
+  #cap span { display: inline-block; background: rgba(0,0,0,.72); color: #fff; font-size: 22px; padding: 10px 18px; border-radius: 8px; max-width: 680px; }
+  #title { position: absolute; inset: 0; background: #0b0f14; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; z-index: 5; transition: opacity .6s; }
+  #title h1 { font-size: 56px; letter-spacing: -1.5px; }
+  #title h1 em { color: #31c4ff; font-style: normal; }
+  #title p { color: #8fa3b8; font-size: 22px; }
+  #title.gone { opacity: 0; pointer-events: none; }
+</style>
+</head>
+<body>
+<div id="title">
+  <h1>Brain Grain Quiz Coach <em>on Alexa+</em></h1>
+  <p>A self-hosted MCP server (spec 2025-11-25) · bilingual Tamil / English · real TNPSC questions</p>
+  <p style="font-size:16px;color:#5b6b7c">Simulated Alexa+ screen on the left · live MCP JSON-RPC on the right</p>
+</div>
+<div id="device">
+  <div class="hdr"><span><b>Echo Show</b> · simulated Alexa+</span><span id="clock"></span></div>
+  <div id="chat"></div>
+  <div class="ring" id="ring"></div>
+</div>
+<div id="wire">
+  <h2>MCP wire · <span id="ep">localhost:3333/mcp</span></h2>
+  <div id="log"></div>
+</div>
+<div id="cap"><span id="capText" hidden></span></div>
+
+<script>
+const MCP = new URLSearchParams(location.search).get("mcp") || (location.origin + "/mcp");
+document.getElementById("ep").textContent = MCP.replace(/^https?:\/\//, "");
+document.getElementById("clock").textContent = new Date().toLocaleTimeString("en-IN", { hour: "2-digit", minute: "2-digit" });
+
+const chat = document.getElementById("chat"), log = document.getElementById("log"), ring = document.getElementById("ring");
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+let rpcId = 0;
+
+function trim(el, max) { while (el.children.length > max) el.removeChild(el.firstChild); }
+function caption(t) { const c = document.getElementById("capText"); c.hidden = !t; c.textContent = t || ""; }
+function frame(kind, obj) {
+  const f = document.createElement("div"); f.className = "frame " + kind;
+  const s = JSON.stringify(obj, null, 1).replace(/"(\w+)":/g, '<span class="k">"$1"</span>:');
+  f.innerHTML = (kind === "req" ? "→ POST " : "← 200 ") + s.slice(0, 700) + (s.length > 700 ? " …" : "");
+  log.appendChild(f); trim(log, 4);
+}
+function user(text) { const b = document.createElement("div"); b.className = "bubble user"; b.textContent = text; chat.appendChild(b); trim(chat, 3); }
+function alexa(html) { const b = document.createElement("div"); b.className = "bubble alexa"; b.innerHTML = '<div class="lab">Alexa+</div>' + html; chat.appendChild(b); trim(chat, 3); }
+const esc = (s) => s.replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
+
+async function rpc(method, params) {
+  const body = { jsonrpc: "2.0", id: ++rpcId, method, params };
+  frame("req", { method, params });
+  ring.classList.add("on");
+  const res = await fetch(MCP, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json, text/event-stream" }, body: JSON.stringify(body) });
+  const text = await res.text();
+  ring.classList.remove("on");
+  const line = text.split("\n").find((l) => l.startsWith("data:"));
+  const json = JSON.parse(line ? line.slice(5) : text);
+  frame("res", json.result);
+  return json.result;
+}
+const call = (name, args) => rpc("tools/call", { name, arguments: args }).then((r) => r);
+
+function fmtQuestion(text) {
+  // "Question (Topic):\nstem\nA. ..\nB. .." → HTML with the options on their own lines
+  return esc(text).replace(/^(.*?)\n/, "<b>$1</b>\n");
+}
+
+async function run() {
+  await sleep(2500);
+  document.getElementById("title").classList.add("gone");
+  await sleep(600);
+
+  caption("Alexa+ discovers the server's tools over MCP");
+  const tools = await rpc("tools/list", {});
+  alexa("Connected to <b>Brain Grain Quiz Coach</b>. Tools: " + tools.tools.map((t) => "<code>" + t.name + "</code>").join(", "));
+  await sleep(3500);
+
+  caption("Ask in plain language — Tamil or English");
+  user("Alexa, quiz me on Indian Polity in Tamil.");
+  await sleep(1500);
+  let r = await call("start_quiz", { learner: "amul", exam: "tnpsc", subject: "polity", language: "ta", count: 3 });
+  alexa(fmtQuestion(r.content[0].text));
+  await sleep(6500);
+
+  caption("Answer by letter or number — the server scores it and explains");
+  user("B");
+  await sleep(1200);
+  r = await call("answer", { learner: "amul", choice: "B" });
+  let t = esc(r.content[0].text);
+  t = t.replace(/^(சரி!|Correct!)/, '<span class="verdict-ok">$1</span>').replace(/^(தவறு\.|Not quite\.)/, '<span class="verdict-no">$1</span>');
+  alexa(t.replace(/\n\n(கேள்வி|Question)/, "\n\n<b>$1").replace(/\):\n/, "):</b>\n"));
+  await sleep(7000);
+
+  caption(r.structuredContent.correct ? "Correct → next question" : "Wrong answer → an extra question on the same topic is queued (adaptive)");
+  user("D");
+  await sleep(1200);
+  r = await call("answer", { learner: "amul", choice: "D" });
+  t = esc(r.content[0].text).replace(/^(சரி!|Correct!)/, '<span class="verdict-ok">$1</span>').replace(/^(தவறு\.|Not quite\.)/, '<span class="verdict-no">$1</span>');
+  alexa(t.replace(/\n\n(கேள்வி|Question)/, "\n\n<b>$1").replace(/\):\n/, "):</b>\n"));
+  await sleep(6500);
+
+  caption("Streaks and weak topics persist per learner");
+  user("Alexa, how am I doing?");
+  await sleep(1200);
+  r = await call("get_streak", { learner: "amul" });
+  alexa(esc(r.content[0].text));
+  await sleep(4500);
+
+  caption("Verified explanations, never generated — accuracy matters for a rank");
+  user("Alexa, explain the Preamble.");
+  await sleep(1200);
+  r = await call("explain", { concept: "Preamble", language: "en" });
+  alexa(esc(r.content[0].text));
+  await sleep(6500);
+
+  caption("Same server works in Claude Desktop, Cursor, MCP Inspector — one integration, every assistant");
+  await sleep(4000);
+  caption("github.com/scoretracker4321/braingrain-alexa-mcp · braingrain.in");
+  await sleep(3500);
+  document.title = "DONE";
+}
+run().catch((e) => { alexa("<span class='verdict-no'>Error:</span> " + esc(String(e))); document.title = "DONE"; });
+</script>
+</body>
+</html>

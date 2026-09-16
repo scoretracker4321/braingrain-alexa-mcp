@@ -48,6 +48,8 @@ export function register(server) {
       Object.assign(s, { exam, subject, language });
       let pool = await bank.questions({ exam, subject });
       if (topic) pool = pool.filter((q) => q.topic.toLowerCase() === topic.toLowerCase());
+      // Tamil mode only serves questions with a real Tamil side — never a silent English fallback.
+      if (language === "ta") pool = pool.filter((q) => q.hasTa);
       if (!pool.length) {
         return reply(`No questions found for ${exam} / ${subject}${topic ? " / " + topic : ""}. Call list_topics to see what exists.`);
       }
@@ -90,7 +92,7 @@ export function register(server) {
         s.weak.set(q.topic, (s.weak.get(q.topic) || 0) + 1);
         // Adaptive follow-up: queue one more question from the same topic.
         const siblings = (await bank.questions({ exam: s.exam, subject: s.subject })).filter(
-          (x) => x.topic === q.topic && x.id !== q.id && !s.queue.includes(x.id),
+          (x) => x.topic === q.topic && x.id !== q.id && !s.queue.includes(x.id) && (s.language !== "ta" || x.hasTa),
         );
         if (siblings.length) s.queue.push(shuffle(siblings)[0].id);
       }

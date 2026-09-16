@@ -73,3 +73,7 @@ friction-log.md what got in the way while building (hackathon friction log)
 ## Licence
 
 MIT — see [LICENSE](LICENSE). Sample content © Brain Grain, included for evaluation.
+
+## Demo
+
+`npm start` then open http://localhost:3333/demo/ — a simulated Alexa+ screen that drives the real server over MCP, with the JSON-RPC frames shown alongside. `node demo/record.mjs` records it to `demo/out/demo.webm` (needs Playwright; set `PLAYWRIGHT_FROM` to a project that has it).

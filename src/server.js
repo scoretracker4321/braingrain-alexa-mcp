@@ -2,8 +2,12 @@
 // Stateless mode — every request carries what it needs, so it can sit behind any
 // plain HTTPS proxy and restart freely.
 
-import { pathToFileURL } from "node:url";
+import { pathToFileURL, fileURLToPath } from "node:url";
+import path from "node:path";
 import express from "express";
+import cors from "cors";
+
+const here = path.dirname(fileURLToPath(import.meta.url));
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
 import { register } from "./tools.js";
@@ -16,7 +20,9 @@ export function build() {
 
 export function app() {
   const a = express();
+  a.use(cors({ origin: "*", exposedHeaders: ["Mcp-Session-Id"], allowedHeaders: ["Content-Type", "Accept", "Mcp-Session-Id", "Mcp-Protocol-Version"] }));
   a.use(express.json({ limit: "1mb" }));
+  a.use("/demo", express.static(path.join(here, "..", "demo")));
 
   a.get("/", (_req, res) => {
     res.json({ name: "braingrain-quiz-coach", mcp: "/mcp", docs: "https://github.com/scoretracker4321/braingrain-alexa-mcp" });

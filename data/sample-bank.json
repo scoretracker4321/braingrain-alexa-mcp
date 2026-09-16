@@ -1,0 +1,1633 @@
+{
+  "source": "Brain Grain — TNPSC Group 4 Polity bank (sample of 65 of 204)",
+  "questions": [
+    {
+      "id": "polity-006",
+      "topic": "Amendments to the Constitution",
+      "en": {
+        "q": "How many Fundamental Duties are listed in the Indian Constitution (as amended)?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "9"
+        ],
+        "explanation": "Originally there were 10 Fundamental Duties (added by the 42nd Amendment, 1976), and an 11th was added by the 86th Amendment, 2002, making the current total 11."
+      },
+      "ta": {
+        "q": "இந்திய அரசியலமைப்பில் (திருத்தப்பட்டபடி) எத்தனை அடிப்படைக் கடமைகள் பட்டியலிடப்பட்டுள்ளன?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "9"
+        ],
+        "explanation": "முதலில் 10 அடிப்படைக் கடமைகள் இருந்தன (42 வது திருத்தம், 1976 மூலம் சேர்க்கப்பட்டன). 11 வது கடமையை 86 வது திருத்தம் 2002 சேர்த்தது. இப்போது மொத்தம் 11 கடமைகள் உள்ளன."
+      },
+      "answer": 1
+    },
+    {
+      "id": "polity-022",
+      "topic": "Amendments to the Constitution",
+      "en": {
+        "q": "The 44th Constitutional Amendment (1978) significantly altered the Indian Constitution by:",
+        "options": [
+          "Adding Fundamental Duties",
+          "Creating the National Commission for Minorities",
+          "Introducing the Emergency provisions",
+          "Restoring the original right to property and removing it from Fundamental Rights to a legal right"
+        ],
+        "explanation": "The 44th Amendment (Janata Government) moved the right to property from Article 19(1)(f) and Article 31 to Article 300A, converting it from a Fundamental Right to a constitutional/legal right."
+      },
+      "ta": {
+        "q": "44வது அரசியலமைப்பு திருத்தம் (1978) இந்திய அரசியலமைப்பை எவ்வாறு கணிசமாக மாற்றியது?",
+        "options": [
+          "அடிப்படைக் கடமைகளை சேர்ப்பது",
+          "சிறுபான்மையினர் தேசிய ஆணையம் உருவாக்குவது",
+          "அவசரகால விதிகளை அறிமுகப்படுத்துவது",
+          "சொத்துரிமையை மீட்டெடுப்பது மற்றும் அதை அடிப்படை உரிமைகளிலிருந்து சட்டப்பூர்வ உரிமையாக மாற்றுவது"
+        ],
+        "explanation": "44வது திருத்தம் (ஜனதா அரசாங்கம்) சொத்துரிமையை பிரிவு 19(1)(f) மற்றும் 31 லிருந்து பிரிவு 300A க்கு மாற்றியது, இதை அடிப்படை உரிமையிலிருந்து அரசியலமைப்பு/சட்டப்பூர்வ உரிமையாக மாற்றியது."
+      },
+      "answer": 3
+    },
+    {
+      "id": "polity-033",
+      "topic": "Amendments to the Constitution",
+      "en": {
+        "q": "The 101st Constitutional Amendment (2016) is associated with:",
+        "options": [
+          "Right to Education",
+          "Goods and Services Tax",
+          "Reservation for OBCs in central services",
+          "National Food Security"
+        ],
+        "explanation": "The 101st Amendment introduced Articles 246A, 269A, and 279A, establishing the GST framework and constituting the GST Council."
+      },
+      "ta": {
+        "q": "101வது அரசியலமைப்பு திருத்தம் (2016) எதனுடன் தொடர்புடையது?",
+        "options": [
+          "கல்வி உரிமை",
+          "பொருட்கள் மற்றும் சேவைகள் வரி",
+          "மத்திய சேவைகளில் OBC க்கு ஒதுக்கீடு",
+          "தேசிய உணவு பாதுகாப்பு"
+        ],
+        "explanation": "101வது திருத்தம் பிரிவுகள் 246A, 269A மற்றும் 279A ஐ அறிமுகப்படுத்தியது, GST கட்டமைப்பை நிறுவி GST கவுன்சிலை அமைத்தது. GST கவுன்சில் (ஒன்றிய நிதி அமைச்சர் மற்றும் மாநில நிதி அமைச்சர்களை கொண்டது) இப்போது GST விகிதங்களை தீர்மானிக்கிறது."
+      },
+      "answer": 1
+    },
+    {
+      "id": "polity-046",
+      "topic": "Amendments to the Constitution",
+      "en": {
+        "q": "How many Fundamental Rights are guaranteed at present?",
+        "options": [
+          "Eight",
+          "Five",
+          "Seven",
+          "Six"
+        ],
+        "explanation": "There are six Fundamental Rights; the Right to Property was removed as a Fundamental Right by the 44th Amendment (1978)."
+      },
+      "ta": {
+        "q": "தற்போது எத்தனை அடிப்படை உரிமைகள் வழங்கப்பட்டுள்ளன?",
+        "options": [
+          "எட்டு",
+          "ஐந்து",
+          "ஏழு",
+          "ஆறு"
+        ],
+        "explanation": "ஆறு அடிப்படை உரிமைகள் உள்ளன; 44வது திருத்தம் (1978) மூலம் சொத்து உரிமை அடிப்படை உரிமையாக இருந்து நீக்கப்பட்டது."
+      },
+      "answer": 3
+    },
+    {
+      "id": "polity-050",
+      "topic": "Amendments to the Constitution",
+      "en": {
+        "q": "Fundamental Duties were added to the Constitution by which amendment?",
+        "options": [
+          "86th Amendment",
+          "44th Amendment",
+          "42nd Amendment",
+          "61st Amendment"
+        ],
+        "explanation": "The 42nd Amendment (1976) added Fundamental Duties (Article 51A) on the recommendation of the Swaran Singh Committee."
+      },
+      "ta": {
+        "q": "அரசியலமைப்பில் அடிப்படை கடமைகள் எந்த திருத்தத்தின் மூலம் சேர்க்கப்பட்டன?",
+        "options": [
+          "86வது திருத்தம்",
+          "44வது திருத்தம்",
+          "42வது திருத்தம்",
+          "61வது திருத்தம்"
+        ],
+        "explanation": "42வது திருத்தம் (1976) சுவரன் சிங் குழுவின் பரிந்துரையின் அடிப்படையில் அடிப்படை கடமைகள் (பிரிவு 51A) சேர்க்கப்பட்டது."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-007",
+      "topic": "Centre-State relations & federalism",
+      "en": {
+        "q": "Which schedule of the Indian Constitution lists the subjects under which Parliament and State Legislatures can make laws?",
+        "options": [
+          "Second Schedule",
+          "Seventh Schedule",
+          "Fifth Schedule",
+          "Tenth Schedule"
+        ],
+        "explanation": "The Seventh Schedule (Article 246) contains three lists: Union List (97 subjects), State List (66 subjects), and Concurrent List (47 subjects), defining legislative jurisdiction."
+      },
+      "ta": {
+        "q": "நாடாளுமன்றமும் மாநில சட்டமன்றங்களும் சட்டங்கள் இயற்றக்கூடிய பாடங்களை இந்திய அரசியலமைப்பின் எந்த அட்டவணை பட்டியலிடுகிறது?",
+        "options": [
+          "இரண்டாம் அட்டவணை",
+          "ஏழாம் அட்டவணை",
+          "ஐந்தாம் அட்டவணை",
+          "பத்தாம் அட்டவணை"
+        ],
+        "explanation": "ஏழாம் அட்டவணை (சட்டப்பிரிவு 246) மூன்று பட்டியல்களை கொண்டுள்ளது: ஒன்றிய பட்டியல் (97 பாடங்கள்), மாநில பட்டியல் (66 பாடங்கள்), மற்றும் பொதுப் பட்டியல் (47 பாடங்கள்). இவை சட்டமியற்றும் அதிகார வரம்பை வரையறுக்கின்றன."
+      },
+      "answer": 1
+    },
+    {
+      "id": "polity-009",
+      "topic": "Centre-State relations & federalism",
+      "en": {
+        "q": "Under Article 356 of the Indian Constitution, President's Rule in a state can initially be imposed for:",
+        "options": [
+          "6 months",
+          "1 year",
+          "2 years",
+          "3 years"
+        ],
+        "explanation": "Under Article 356, President's Rule is initially imposed for 6 months. It can be extended with Parliamentary approval, but cannot exceed 3 years in total."
+      },
+      "ta": {
+        "q": "இந்திய அரசியலமைப்பின் சட்டப்பிரிவு 356 இன் கீழ், ஒரு மாநிலத்தில் குடியரசுத் தலைவர் ஆட்சி ஆரம்பத்தில் எவ்வளவு காலம் விதிக்கப்படலாம்?",
+        "options": [
+          "6 மாதங்கள்",
+          "1 ஆண்டு",
+          "2 ஆண்டுகள்",
+          "3 ஆண்டுகள்"
+        ],
+        "explanation": "சட்டப்பிரிவு 356 இன் கீழ், குடியரசுத் தலைவர் ஆட்சி ஆரம்பத்தில் 6 மாதங்களுக்கு விதிக்கப்படும். நாடாளுமன்ற ஒப்புதலுடன் நீட்டிக்கலாம், ஆனால் மொத்தம் 3 ஆண்டுகளை தாண்டக் கூடாது."
+      },
+      "answer": 0
+    },
+    {
+      "id": "polity-026",
+      "topic": "Centre-State relations & federalism",
+      "en": {
+        "q": "Which Article of the Constitution empowers the Governor to reserve a bill for the President's consideration?",
+        "options": [
+          "Article 356",
+          "Article 201",
+          "Article 254",
+          "Article 200"
+        ],
+        "explanation": "Article 200 provides that the Governor shall assent to a bill, withhold assent, return it for reconsideration, or reserve it for the President's consideration."
+      },
+      "ta": {
+        "q": "அரசியலமைப்பின் எந்த பிரிவு ஆளுநருக்கு குடியரசுத் தலைவரின் பரிசீலனைக்கு ஒரு மசோதாவை ஒதுக்கி வைக்க அதிகாரம் அளிக்கிறது?",
+        "options": [
+          "பிரிவு 356",
+          "பிரிவு 201",
+          "பிரிவு 254",
+          "பிரிவு 200"
+        ],
+        "explanation": "பிரிவு 200 ஆளுநர் ஒரு மசோதாவிற்கு சம்மதிப்பார், சம்மதம் தாமதிப்பார், மறுபரிசீலனைக்கு திருப்பி அனுப்புவார் அல்லது குடியரசுத் தலைவரின் பரிசீலனைக்கு ஒதுக்கி வைப்பார் என்று வழங்குகிறது."
+      },
+      "answer": 3
+    },
+    {
+      "id": "polity-039",
+      "topic": "Centre-State relations & federalism",
+      "en": {
+        "q": "The idea of a 'Concurrent List' in the Indian Constitution means:",
+        "options": [
+          "Only the Centre can legislate on subjects listed",
+          "Only states can legislate on subjects listed",
+          "Both Centre and states can legislate, but Central law prevails in case of conflict",
+          "A joint parliamentary committee must pass all such laws"
+        ],
+        "explanation": "The Concurrent List (List III, Seventh Schedule) allows both Parliament and state legislatures to make laws, but in case of repugnancy, the Central law prevails (Article 254)."
+      },
+      "ta": {
+        "q": "இந்திய அரசியலமைப்பில் 'ஒரே நேர பட்டியல்' என்ற கருத்து என்று அர்த்தம்:",
+        "options": [
+          "பட்டியலிடப்பட்ட பாடங்களில் மையம் மட்டுமே சட்டமியற்றலாம்",
+          "பட்டியலிடப்பட்ட பாடங்களில் மாநிலங்கள் மட்டுமே சட்டமியற்றலாம்",
+          "மையம் மற்றும் மாநிலங்கள் இரண்டும் சட்டமியற்றலாம், ஆனால் மோதல் ஏற்பட்டால் மத்திய சட்டம் வெல்லும்",
+          "அனைத்து இத்தகைய சட்டங்களும் கூட்டு நாடாளுமன்ற குழுவால் நிறைவேற்றப்பட வேண்டும்"
+        ],
+        "explanation": "ஒரே நேர பட்டியல் (பட்டியல் III, ஏழாவது அட்டவணை) நாடாளுமன்றம் மற்றும் மாநில சட்டமன்றங்கள் இரண்டையும் சட்டங்கள் இயற்ற அனுமதிக்கிறது, ஆனால் முரண்பாட்டின் போது மத்திய சட்டம் வெல்லும் (பிரிவு 254). இது மாநிலங்கள் தேசிய குறைந்தபட்ச தரங்களை பராமரிக்கும் போது கொள்கைகளை மாற்றியமைக்க அனுமதிக்கிறது."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-057",
+      "topic": "Centre-State relations & federalism",
+      "en": {
+        "q": "The subjects on which both the Union and States can legislate are listed in the",
+        "options": [
+          "Residuary powers",
+          "State List",
+          "Concurrent List",
+          "Union List"
+        ],
+        "explanation": "The Concurrent List (7th Schedule) carries subjects on which both Parliament and State Legislatures can legislate; Union law prevails in case of conflict."
+      },
+      "ta": {
+        "q": "மத்திய அரசு மற்றும் மாநிலங்கள் இரண்டும் சட்டம் இயற்றக்கூடிய பொருட்கள் எந்த பட்டியலில் உள்ளன?",
+        "options": [
+          "மீதி அதிகாரங்கள்",
+          "மாநில பட்டியல்",
+          "ஒருங்கிணைந்த பட்டியல்",
+          "கூட்டாட்சி பட்டியல்"
+        ],
+        "explanation": "ஒருங்கிணைந்த பட்டியல் (7வது அட்டவணை) மத்திய மற்றும் மாநில சட்டமன்றங்கள் இரண்டும் சட்டம் இயற்றக்கூடிய பொருட்களை கொண்டுள்ளது; மோதலின் போது மத்திய சட்டம் மேலோங்கும்."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-013",
+      "topic": "Constitutional & statutory bodies",
+      "en": {
+        "q": "The Comptroller and Auditor General (CAG) of India is appointed by the:",
+        "options": [
+          "Prime Minister",
+          "Finance Minister",
+          "President of India",
+          "Parliament"
+        ],
+        "explanation": "Article 148 of the Indian Constitution states that the Comptroller and Auditor General of India is appointed by the President of India."
+      },
+      "ta": {
+        "q": "இந்தியாவின் கணக்காய்வர் மற்றும் தணிக்கையர் நாயகம் (CAG) யாரால் நியமிக்கப்படுகிறார்?",
+        "options": [
+          "பிரதமர்",
+          "நிதியமைச்சர்",
+          "இந்தியக் குடியரசுத் தலைவர்",
+          "நாடாளுமன்றம்"
+        ],
+        "explanation": "இந்திய அரசியலமைப்பின் சட்டப்பிரிவு 148 இன்படி, இந்தியாவின் கணக்காய்வர் மற்றும் தணிக்கையர் நாயகம் இந்தியக் குடியரசுத் தலைவரால் நியமிக்கப்படுகிறார்."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-015",
+      "topic": "Constitutional & statutory bodies",
+      "en": {
+        "q": "The Election Commission of India is a:",
+        "options": [
+          "Statutory body created by Parliament",
+          "Constitutional body under Article 324",
+          "Body created by Executive order",
+          "Quasi-judicial body under the Judiciary"
+        ],
+        "explanation": "The Election Commission of India was established under Article 324 of the Constitution, which vests in it the power of superintendence, direction, and control of elections to Parliament and State Legislatures."
+      },
+      "ta": {
+        "q": "இந்திய தேர்தல் ஆணையம் என்பது:",
+        "options": [
+          "நாடாளுமன்றத்தால் உருவாக்கப்பட்ட சட்டரீதியான அமைப்பு",
+          "சட்டப்பிரிவு 324 இன் கீழ் அரசியலமைப்பு அமைப்பு",
+          "நிர்வாக உத்தரவால் உருவாக்கப்பட்ட அமைப்பு",
+          "நீதித்துறையின் கீழ் அரை-நீதி அமைப்பு"
+        ],
+        "explanation": "இந்திய தேர்தல் ஆணையம் அரசியலமைப்பின் சட்டப்பிரிவு 324 இன் கீழ் நிறுவப்பட்டது. நாடாளுமன்றம் மற்றும் மாநில சட்டமன்றங்களுக்கான தேர்தல்களின் மேற்பார்வை, வழிகாட்டுதல் மற்றும் கட்டுப்படுத்தும் அதிகாரம் இதற்கு வழங்கப்பட்டுள்ளது."
+      },
+      "answer": 1
+    },
+    {
+      "id": "polity-032",
+      "topic": "Constitutional & statutory bodies",
+      "en": {
+        "q": "The Comptroller and Auditor General (CAG) of India is described as 'guardian of the public purse'. Which article provides for the CAG?",
+        "options": [
+          "Article 148",
+          "Article 324",
+          "Article 153",
+          "Article 315"
+        ],
+        "explanation": "Article 148 establishes the CAG of India, who audits all accounts of the Union, states, and bodies substantially funded by government."
+      },
+      "ta": {
+        "q": "இந்தியாவின் கம்ப்ட்ரோலர் மற்றும் ஆடிட்டர் ஜெனரல் (CAG) 'பொது கருவூலத்தின் காவலர்' என்று விவரிக்கப்படுகிறார். எந்த பிரிவு CAG ஐ வழங்குகிறது?",
+        "options": [
+          "பிரிவு 148",
+          "பிரிவு 324",
+          "பிரிவு 153",
+          "பிரிவு 315"
+        ],
+        "explanation": "பிரிவு 148 இந்தியாவின் CAG ஐ நிறுவுகிறது, அவர் ஒன்றியம், மாநிலங்கள் மற்றும் அரசாங்கத்தால் கணிசமாக நிதியளிக்கப்படும் அமைப்புகளின் அனைத்து கணக்குகளையும் தணிக்கை செய்கிறார். CAG நாடாளுமன்றத்திற்கு (அல்லது மாநில சட்டமன்றத்திற்கு) அறிக்கை செய்கிறார்."
+      },
+      "answer": 0
+    },
+    {
+      "id": "polity-036",
+      "topic": "Constitutional & statutory bodies",
+      "en": {
+        "q": "Which body conducts the census of India, and under which Ministry does it function?",
+        "options": [
+          "RBI under Ministry of Finance",
+          "NSSO under Ministry of Statistics",
+          "Planning Commission under NITI Aayog",
+          "Office of the Registrar General under Ministry of Home Affairs"
+        ],
+        "explanation": "The Census of India is conducted by the Office of the Registrar General and Census Commissioner, which functions under the Ministry of Home Affairs."
+      },
+      "ta": {
+        "q": "இந்தியாவின் மக்கள் தொகை கணக்கெடுப்பை எந்த அமைப்பு நடத்துகிறது, எந்த அமைச்சகத்தின் கீழ் செயல்படுகிறது?",
+        "options": [
+          "நிதி அமைச்சகத்தின் கீழ் RBI",
+          "புள்ளியியல் அமைச்சகத்தின் கீழ் NSSO",
+          "நிதி ஆயோக்கின் கீழ் திட்டக் குழு",
+          "உள்துறை அமைச்சகத்தின் கீழ் பதிவாளர் நாயகம் அலுவலகம்"
+        ],
+        "explanation": "இந்தியாவின் மக்கள் தொகை கணக்கெடுப்பு உள்துறை அமைச்சகத்தின் கீழ் செயல்படும் பதிவாளர் நாயகம் மற்றும் மக்கள் தொகை கணக்கெடுப்பு ஆணையர் அலுவலகத்தால் நடத்தப்படுகிறது. மக்கள் தொகை கணக்கெடுப்பு சட்டம் 1948 பத்தாண்டு மக்கள் தொகை கணக்கெடுப்பை நிர்வகிக்கிறது."
+      },
+      "answer": 3
+    },
+    {
+      "id": "polity-062",
+      "topic": "Constitutional & statutory bodies",
+      "en": {
+        "q": "The Comptroller and Auditor General (CAG) is provided for under which Article?",
+        "options": [
+          "Article 76",
+          "Article 280",
+          "Article 315",
+          "Article 148"
+        ],
+        "explanation": "Article 148 provides for the CAG, who audits the accounts of the Union and the States; Dr. Ambedkar called the office a guardian of the public purse."
+      },
+      "ta": {
+        "q": "கணக்காய்வாளர் மற்றும் பொதுத் தணிக்கையாளர் (CAG) எந்த அரசியலமைப்பு பிரிவின் கீழ் வழங்கப்பட்டுள்ளார்?",
+        "options": [
+          "பிரிவு 76",
+          "பிரிவு 280",
+          "பிரிவு 315",
+          "பிரிவு 148"
+        ],
+        "explanation": "பிரிவு 148 கணக்காய்வாளர் மற்றும் பொதுத் தணிக்கையாளரை வழங்குகிறது, அவர் மத்திய மற்றும் மாநிலங்களின் கணக்குகளை தணிக்கிறார்; டாக்டர் அம்பேத்கர் இந்த அலுவலகத்தை பொது நிதியின் காவலர் என்று அழைத்தார்."
+      },
+      "answer": 3
+    },
+    {
+      "id": "polity-003",
+      "topic": "Directive Principles & Fundamental Duties",
+      "en": {
+        "q": "The Directive Principles of State Policy (DPSP) are enshrined in which Part of the Indian Constitution?",
+        "options": [
+          "Part II",
+          "Part III",
+          "Part IV",
+          "Part V"
+        ],
+        "explanation": "The Directive Principles of State Policy are contained in Part IV (Articles 36–51) of the Indian Constitution and are borrowed from the Irish Constitution."
+      },
+      "ta": {
+        "q": "இந்திய அரசியலமைப்பின் எந்த பகுதியில் அரசு கொள்கையின் வழிகாட்டு நெறிகள் (DPSP) இடம்பெற்றுள்ளன?",
+        "options": [
+          "பகுதி II",
+          "பகுதி III",
+          "பகுதி IV",
+          "பகுதி V"
+        ],
+        "explanation": "அரசு கொள்கையின் வழிகாட்டு நெறிகள் இந்திய அரசியலமைப்பின் பகுதி IV இல் (சட்டப்பிரிவுகள் 36–51) உள்ளன. இவை அயர்லாந்து அரசியலமைப்பிலிருந்து எடுக்கப்பட்டவை."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-014",
+      "topic": "Directive Principles & Fundamental Duties",
+      "en": {
+        "q": "Which of the following is NOT a Directive Principle of State Policy?",
+        "options": [
+          "Equal pay for equal work for men and women",
+          "Protection of environment and wildlife",
+          "Right to freedom of religion",
+          "Promotion of cottage industries"
+        ],
+        "explanation": "Right to Freedom of Religion (Articles 25–28) is a Fundamental Right in Part III of the Constitution, not a Directive Principle in Part IV."
+      },
+      "ta": {
+        "q": "பின்வருவனவற்றில் எது அரசு கொள்கையின் வழிகாட்டு நெறி அல்ல?",
+        "options": [
+          "ஆண்களுக்கும் பெண்களுக்கும் சம வேலைக்கு சம ஊதியம்",
+          "சுற்றுச்சூழல் மற்றும் வன்னுயிர் பாதுகாப்பு",
+          "மதச் சுதந்திர உரிமை",
+          "குடிசைத் தொழில்கள் மேம்பாடு"
+        ],
+        "explanation": "மதச் சுதந்திர உரிமை (சட்டப்பிரிவுகள் 25–28) அரசியலமைப்பின் பகுதி III இல் ஒரு அடிப்படை உரிமை ஆகும், பகுதி IV இல் உள்ள வழிகாட்டு நெறி அல்ல."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-028",
+      "topic": "Directive Principles & Fundamental Duties",
+      "en": {
+        "q": "The Directive Principle in Article 44 (Uniform Civil Code) has been described by the Supreme Court as:",
+        "options": [
+          "A dead letter that courts cannot enforce",
+          "A fundamental right that overrides personal laws",
+          "A constitutional imperative that should be actively pursued but cannot be judicially enforced against Parliament",
+          "Already implemented in Goa under the Portuguese Civil Code"
+        ],
+        "explanation": "Article 44 is a DPSP — aspirational, not justiciable. The Supreme Court has repeatedly directed Parliament to implement it without being able to compel."
+      },
+      "ta": {
+        "q": "பிரிவு 44 இல் நிர்தேச கொள்கை (சீரான சிவில் சட்டம்) உச்ச நீதிமன்றத்தால் எவ்வாறு விவரிக்கப்பட்டுள்ளது?",
+        "options": [
+          "நீதிமன்றங்கள் நடைமுறைப்படுத்த முடியாத செத்த கடிதம்",
+          "தனிப்பட்ட சட்டங்களை மேற்கொள்ளும் அடிப்படை உரிமை",
+          "தீவிரமாக தொடரப்பட வேண்டும் ஆனால் நாடாளுமன்றத்திற்கு எதிராக நீதி ரீதியாக நடைமுறைப்படுத்த முடியாத அரசியலமைப்பு கட்டாயம்",
+          "போர்த்துகீசிய சிவில் சட்டத்தின் கீழ் ஏற்கெனவே கோவாவில் நடைமுறைப்படுத்தப்பட்டது"
+        ],
+        "explanation": "பிரிவு 44 ஒரு DPSP — ஆர்வமுடைய, நீதி ரீதியாக நடைமுறைப்படுத்த முடியாத. உச்ச நீதிமன்றம் நாடாளுமன்றத்தை கட்டாயப்படுத்த முடியாமல் அதை நடைமுறைப்படுத்த திரும்பத் திரும்ப வழிகாட்டியது. கோவா ஒரு பொதுவான சிவில் சட்டத்தை கொண்டுள்ளது, ஆனால் பிரிவு 44 ஒரு வழிகாட்டியாக உள்ளது."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-049",
+      "topic": "Directive Principles & Fundamental Duties",
+      "en": {
+        "q": "The Directive Principles of State Policy were borrowed from the Constitution of",
+        "options": [
+          "Ireland",
+          "Canada",
+          "Australia",
+          "USA"
+        ],
+        "explanation": "DPSP (Part IV, Articles 36–51) were inspired by the Irish Constitution; they are non-justiciable."
+      },
+      "ta": {
+        "q": "அரசின் வழிகாட்டும் கோட்பாடுகள் எந்த நாட்டின் அரசியலமைப்பிலிருந்து கடன் பெறப்பட்டன?",
+        "options": [
+          "அயர்லாந்து",
+          "கனடா",
+          "ஆஸ்திரேலியா",
+          "அமெரிக்கா"
+        ],
+        "explanation": "அரசின் வழிகாட்டும் கோட்பாடுகள் (பகுதி IV, பிரிவுகள் 36–51) அயர்லாந்து அரசியலமைப்பில் இருந்து ஈர்க்கப்பட்டவை; அவை நீதிபதிக்குப் பொருந்தாதவை."
+      },
+      "answer": 0
+    },
+    {
+      "id": "polity-081",
+      "topic": "Directive Principles & Fundamental Duties",
+      "en": {
+        "q": "Directive Principles of State Policy are contained in which part of the Constitution?",
+        "options": [
+          "Part IV",
+          "Part III",
+          "Part V",
+          "Part IVA"
+        ],
+        "explanation": "Directive Principles of State Policy are listed in Part IV of the Constitution."
+      },
+      "ta": {
+        "q": "அரசின் வழிகாட்டும் கோட்பாடுகள் அரசியலமைப்பின் எந்த பகுதியில் உள்ளன?",
+        "options": [
+          "பகுதி IV",
+          "பகுதி III",
+          "பகுதி V",
+          "பகுதி IVA"
+        ],
+        "explanation": "அரசின் வழிகாட்டும் கோட்பாடுகள் அரசியலமைப்பின் பகுதி IV-ல் உள்ளன."
+      },
+      "answer": 0
+    },
+    {
+      "id": "polity-035",
+      "topic": "Elections & Election Commission",
+      "en": {
+        "q": "The principle of 'One Nation, One Election' as discussed in India primarily refers to:",
+        "options": [
+          "Having a single political party contest all elections",
+          "Conducting Lok Sabha and all state assembly elections simultaneously",
+          "Holding elections only in January every five years",
+          "Creating a single electoral roll for all elections"
+        ],
+        "explanation": "The concept proposes synchronising Lok Sabha and all state assembly elections to reduce costs, administrative disruption, and the continuous 'election mode' that policy-making suffers from."
+      },
+      "ta": {
+        "q": "இந்தியாவில் விவாதிக்கப்படும் 'ஒரே நாடு, ஒரே தேர்தல்' கொள்கை முக்கியமாக எதை குறிக்கிறது?",
+        "options": [
+          "அனைத்து தேர்தல்களிலும் ஒரே அரசியல் கட்சி போட்டியிடுவது",
+          "லோக்சபா மற்றும் அனைத்து மாநில சட்டமன்ற தேர்தல்களை ஒரே நேரத்தில் நடத்துவது",
+          "ஒவ்வொரு ஐந்து ஆண்டுகளும் ஜனவரியில் மட்டும் தேர்தல்கள் நடத்துவது",
+          "அனைத்து தேர்தல்களுக்கும் ஒற்றை தேர்தல் பட்டியல் உருவாக்குவது"
+        ],
+        "explanation": "இந்த கருத்து செலவுகளை குறைக்க, நிர்வாக இடையூறு மற்றும் கொள்கை வகுப்பு பாதிக்கும் தொடர்ச்சியான 'தேர்தல் பயன்முறையை' குறைக்க லோக்சபா மற்றும் அனைத்து மாநில சட்டமன்ற தேர்தல்களை ஒத்திசைக்க முன்மொழிகிறது. கோவிந்த் குழு (2023) ஒரே நேர தேர்தல்களை பரிந்துரைத்தது."
+      },
+      "answer": 1
+    },
+    {
+      "id": "polity-063",
+      "topic": "Elections & Election Commission",
+      "en": {
+        "q": "The first Chief Election Commissioner of India was",
+        "options": [
+          "Sukumar Sen",
+          "K. V. K. Sundaram",
+          "T. N. Seshan",
+          "Sukumar Roy"
+        ],
+        "explanation": "Sukumar Sen was the first Chief Election Commissioner (1950–1958) and oversaw the first general elections of 1951–52."
+      },
+      "ta": {
+        "q": "இந்தியாவின் முதல் தலைமை தேர்தல் ஆணையர் யார்?",
+        "options": [
+          "சுகுமார் சேன்",
+          "கே. வி. கே. சுந்தரம்",
+          "டி. என். சேஷன்",
+          "சுகுமார் ராய்"
+        ],
+        "explanation": "சுகுமார் சென் முதல் தலைமை தேர்தல் ஆணையராக (1950–1958) இருந்தார் மற்றும் 1951–52 முதல் பொதுத் தேர்தல்களை மேற்பார்வை செய்தார்."
+      },
+      "answer": 0
+    },
+    {
+      "id": "polity-103",
+      "topic": "Elections & Election Commission",
+      "en": {
+        "q": "The Advocate General of a State is appointed by the:",
+        "options": [
+          "Chief Justice of India",
+          "Speaker",
+          "Governor",
+          "Election Commission"
+        ],
+        "explanation": "The Governor appoints the Advocate General of the State."
+      },
+      "ta": {
+        "q": "ஒரு மாநிலத்தின் சட்டத்தரணர் பொதுவை நியமிப்பவர் யார்?",
+        "options": [
+          "இந்திய தலைமை நீதிபதி",
+          "சபாநாயகர்",
+          "ஆளுநர்",
+          "தேர்தல் ஆணையம்"
+        ],
+        "explanation": "மாநிலத்தின் சட்டத்தரணர் பொதுவை ஆளுநர் நியமிக்கிறார்."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-113",
+      "topic": "Elections & Election Commission",
+      "en": {
+        "q": "Superintendence, direction and control of elections are vested in the Election Commission under:",
+        "options": [
+          "Article 326",
+          "Article 324",
+          "Article 368",
+          "Article 356"
+        ],
+        "explanation": "Article 324 vests election superintendence, direction and control in the Election Commission."
+      },
+      "ta": {
+        "q": "தேர்தல்களின் மேற்பார்வை, வழிநடத்தல் மற்றும் கட்டுப்பாடு எந்தக் பிரிவின் கீழ் தேர்தல் ஆணையத்திடம் ஒப்படைக்கப்பட்டுள்ளது?",
+        "options": [
+          "பிரிவு 326",
+          "பிரிவு 324",
+          "பிரிவு 368",
+          "பிரிவு 356"
+        ],
+        "explanation": "பிரிவு 324 தேர்தல்களின் மேற்பார்வை, வழிநடத்தல் மற்றும் கட்டுப்பாட்டை தேர்தல் ஆணையத்திடம் ஒப்படைக்கிறது."
+      },
+      "answer": 1
+    },
+    {
+      "id": "polity-114",
+      "topic": "Elections & Election Commission",
+      "en": {
+        "q": "Universal adult franchise in India means the right to vote is based primarily on:",
+        "options": [
+          "Educational qualification",
+          "Income tax payment",
+          "Age and citizenship",
+          "Property ownership"
+        ],
+        "explanation": "Universal adult franchise gives voting rights to adult citizens without property, education or income qualifications."
+      },
+      "ta": {
+        "q": "இந்தியாவில் பொதுவான வாக்குரிமை என்பது வாக்குரிமை முதன்மையாக எதன் அடிப்படையில் உள்ளது?",
+        "options": [
+          "கல்வித் தகுதி",
+          "வருமான வரி செலுத்தல்",
+          "வயது மற்றும் குடியுரிமை",
+          "சொத்து உரிமை"
+        ],
+        "explanation": "பொதுவான வாக்குரிமை என்பது சொத்து, கல்வி அல்லது வருமான தகுதிகள் இல்லாமல் பெரியவர்களான குடிமக்களுக்கு வாக்குரிமை வழங்குகிறது."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-002",
+      "topic": "Fundamental Rights",
+      "en": {
+        "q": "Which Fundamental Right is described as the 'heart and soul' of the Indian Constitution by Dr. B. R. Ambedkar?",
+        "options": [
+          "Right to Equality (Article 14)",
+          "Right to Freedom (Article 19)",
+          "Right to Constitutional Remedies (Article 32)",
+          "Right to Life (Article 21)"
+        ],
+        "explanation": "Dr. Ambedkar called Article 32 (Right to Constitutional Remedies) the 'heart and soul' of the Constitution because it empowers citizens to approach the Supreme Court directly for enforcement of Fundamental Rights."
+      },
+      "ta": {
+        "q": "டாக்டர் பி. ஆர். அம்பேத்கரால் இந்திய அரசியலமைப்பின் 'இதயமும் ஆன்மாவும்' என்று வர்ணிக்கப்பட்ட அடிப்படை உரிமை எது?",
+        "options": [
+          "சமத்துவ உரிமை (சட்டப்பிரிவு 14)",
+          "சுதந்திர உரிமை (சட்டப்பிரிவு 19)",
+          "அரசியலமைப்பு தீர்வு உரிமை (சட்டப்பிரிவு 32)",
+          "உயிர் வாழும் உரிமை (சட்டப்பிரிவு 21)"
+        ],
+        "explanation": "டாக்டர் அம்பேத்கர் சட்டப்பிரிவு 32 ஐ (அரசியலமைப்பு தீர்வு உரிமை) அரசியலமைப்பின் 'இதயமும் ஆன்மாவும்' என்று அழைத்தார். ஏனெனில் இது குடிமக்கள் அடிப்படை உரிமைகள் அமலாக்கத்திற்காக நேரடியாக உச்ச நீதிமன்றத்தை அணுக அதிகாரம் அளிக்கிறது."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-011",
+      "topic": "Fundamental Rights",
+      "en": {
+        "q": "Which Article of the Indian Constitution abolishes untouchability?",
+        "options": [
+          "Article 14",
+          "Article 15",
+          "Article 17",
+          "Article 16"
+        ],
+        "explanation": "Article 17 of the Indian Constitution abolishes untouchability and forbids its practice in any form, making its enforcement a punishable offence under the Protection of Civil Rights Act."
+      },
+      "ta": {
+        "q": "இந்திய அரசியலமைப்பின் எந்த சட்டப்பிரிவு தீண்டாமையை ஒழிக்கிறது?",
+        "options": [
+          "சட்டப்பிரிவு 14",
+          "சட்டப்பிரிவு 15",
+          "சட்டப்பிரிவு 17",
+          "சட்டப்பிரிவு 16"
+        ],
+        "explanation": "இந்திய அரசியலமைப்பின் சட்டப்பிரிவு 17 தீண்டாமையை ஒழித்து எந்த வடிவத்திலும் அதை கடைப்பிடிப்பதை தடை செய்கிறது. குடிமக்கள் உரிமைகள் பாதுகாப்பு சட்டத்தின் கீழ் இதை நடைமுறைப்படுத்துவது தண்டனைக்குரிய குற்றம்."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-016",
+      "topic": "Fundamental Rights",
+      "en": {
+        "q": "Which Fundamental Right was originally in the Indian Constitution but was later removed by the 44th Amendment (1978)?",
+        "options": [
+          "Right to Education",
+          "Right to Property",
+          "Right to Privacy",
+          "Right to Work"
+        ],
+        "explanation": "The Right to Property was originally a Fundamental Right under Article 19(1)(f) and Article 31. The 44th Amendment Act, 1978 removed it from the Fundamental Rights and made it a legal right under Article 300A."
+      },
+      "ta": {
+        "q": "இந்திய அரசியலமைப்பில் முதலில் இருந்த ஆனால் பின்னர் 44 வது திருத்தம் (1978) மூலம் நீக்கப்பட்ட அடிப்படை உரிமை எது?",
+        "options": [
+          "கல்விக்கான உரிமை",
+          "சொத்துரிமை",
+          "தனியுரிமை உரிமை",
+          "வேலைக்கான உரிமை"
+        ],
+        "explanation": "சொத்துரிமை முதலில் சட்டப்பிரிவு 19(1)(f) மற்றும் சட்டப்பிரிவு 31 இன் கீழ் ஒரு அடிப்படை உரிமையாக இருந்தது. 44 வது திருத்தச் சட்டம் 1978 இதை அடிப்படை உரிமைகளிலிருந்து நீக்கி சட்டப்பிரிவு 300A இன் கீழ் சட்டரீதியான உரிமையாக மாற்றியது."
+      },
+      "answer": 1
+    },
+    {
+      "id": "polity-027",
+      "topic": "Fundamental Rights",
+      "en": {
+        "q": "The Right to Information Act (RTI) 2005 is based on which fundamental right?",
+        "options": [
+          "Article 21 — Right to Life",
+          "Article 32 — Right to Constitutional Remedies",
+          "Article 14 — Right to Equality",
+          "Article 19(1)(a) — Freedom of Speech and Expression"
+        ],
+        "explanation": "The Supreme Court held that the right to information flows from Article 19(1)(a), treating informed citizenship as prerequisite to meaningful freedom of expression."
+      },
+      "ta": {
+        "q": "தகவல் அறியும் உரிமை சட்டம் (RTI) 2005 எந்த அடிப்படை உரிமையை அடிப்படையாக கொண்டுள்ளது?",
+        "options": [
+          "பிரிவு 21 — உயிர் வாழும் உரிமை",
+          "பிரிவு 32 — அரசியலமைப்பு தீர்வு உரிமை",
+          "பிரிவு 14 — சமத்துவ உரிமை",
+          "பிரிவு 19(1)(a) — பேச்சு மற்றும் வெளிப்பாடு சுதந்திரம்"
+        ],
+        "explanation": "உச்ச நீதிமன்றம் தகவல் அறியும் உரிமை பிரிவு 19(1)(a) லிருந்து பிரவாகிக்கிறது என்று கூறியது, தகவல் மிக்க குடியுரிமையை அர்த்தமுள்ள வெளிப்பாடு சுதந்திரத்திற்கு முன்நிபந்தனையாக கருதியது."
+      },
+      "answer": 3
+    },
+    {
+      "id": "polity-045",
+      "topic": "Fundamental Rights",
+      "en": {
+        "q": "Which Article is described by Dr. Ambedkar as the \"heart and soul\" of the Constitution?",
+        "options": [
+          "Article 14",
+          "Article 21",
+          "Article 32",
+          "Article 19"
+        ],
+        "explanation": "Article 32 (Right to Constitutional Remedies) lets citizens approach the Supreme Court directly to enforce Fundamental Rights."
+      },
+      "ta": {
+        "q": "அரசியலமைப்பின் \"இதயம் மற்றும் ஆன்மா\" என்று டாக்டர் அம்பேத்கர் விவரித்துள்ள பிரிவு எது?",
+        "options": [
+          "பிரிவு 14",
+          "பிரிவு 21",
+          "பிரிவு 32",
+          "பிரிவு 19"
+        ],
+        "explanation": "பிரிவு 32 (அரசியலமைப்புச் சிகிச்சை உரிமை) அடிப்படை உரிமைகளை அமல்படுத்த நேரடியாக உச்ச நீதிமன்றத்தை அணுகுவதற்கான உரிமையை வழங்குகிறது."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-019",
+      "topic": "Judiciary & Supreme Court",
+      "en": {
+        "q": "Under which article does the Supreme Court have the power of 'original jurisdiction' to settle disputes between the Union and States?",
+        "options": [
+          "Article 136",
+          "Article 131",
+          "Article 143",
+          "Article 226"
+        ],
+        "explanation": "Article 131 grants the Supreme Court original (exclusive) jurisdiction over disputes between the Government of India and one or more states, or between states themselves."
+      },
+      "ta": {
+        "q": "ஒன்றியத்திற்கும் மாநிலங்களுக்கும் இடையிலான தகராறுகளை தீர்க்க உச்ச நீதிமன்றத்திற்கு 'அசல் அதிகாரவரம்பு' உள்ள சட்டப்பிரிவு எது?",
+        "options": [
+          "சட்டப்பிரிவு 136",
+          "சட்டப்பிரிவு 131",
+          "சட்டப்பிரிவு 143",
+          "சட்டப்பிரிவு 226"
+        ],
+        "explanation": "சட்டப்பிரிவு 131 இந்திய அரசுக்கும் ஒன்று அல்லது அதிக மாநிலங்களுக்கும் இடையே, அல்லது மாநிலங்களுக்கிடையே நடக்கும் தகராறுகளில் உச்ச நீதிமன்றத்திற்கு அசல் (தனிப்பட்ட) அதிகாரவரம்பு வழங்குகிறது."
+      },
+      "answer": 1
+    },
+    {
+      "id": "polity-021",
+      "topic": "Judiciary & Supreme Court",
+      "en": {
+        "q": "The 'Basic Structure Doctrine' of the Indian Constitution was established by which Supreme Court case?",
+        "options": [
+          "Golak Nath v. State of Punjab (1967)",
+          "Minerva Mills v. Union of India (1980)",
+          "Kesavananda Bharati v. State of Kerala (1973)",
+          "Shankari Prasad v. Union of India (1951)"
+        ],
+        "explanation": "In Kesavananda Bharati (1973), a 13-judge bench held 7:6 that Parliament cannot amend the Constitution's basic structure, establishing judicial review as a constitutional safeguard."
+      },
+      "ta": {
+        "q": "இந்திய அரசியலமைப்பின் 'அடிப்படை கட்டமைப்பு கோட்பாடு' எந்த உச்ச நீதிமன்ற வழக்கால் நிறுவப்பட்டது?",
+        "options": [
+          "கோலக்நாத் vs பஞ்சாப் மாநிலம் (1967)",
+          "மினர்வா மில்ஸ் vs இந்திய ஒன்றியம் (1980)",
+          "கேசவானந்த பாரதி vs கேரள மாநிலம் (1973)",
+          "சங்காரி பிரசாத் vs இந்திய ஒன்றியம் (1951)"
+        ],
+        "explanation": "கேசவானந்த பாரதி (1973) வழக்கில், 13 நீதிபதிகள் அமர்வு 7:6 என்று தீர்ப்பளித்தது: நாடாளுமன்றம் அரசியலமைப்பின் அடிப்படை கட்டமைப்பை திருத்த முடியாது, நீதி ஆய்வை அரசியலமைப்பு பாதுகாப்பாக நிறுவியது."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-024",
+      "topic": "Judiciary & Supreme Court",
+      "en": {
+        "q": "The concept of 'Constitutional Morality' was invoked in which recent Supreme Court landmark ruling?",
+        "options": [
+          "Navtej Singh Johar v. Union of India (2018) — decriminalising homosexuality",
+          "Shreya Singhal v. Union of India (2015) — striking down Section 66A IT Act",
+          "NJAC judgment (2015) — striking down the National Judicial Appointments Commission",
+          "Both A and C"
+        ],
+        "explanation": "Constitutional morality was explicitly invoked in both Navtej Singh Johar and the NJAC judgment to override popular morality."
+      },
+      "ta": {
+        "q": "'அரசியலமைப்பு நைதீகம்' கருத்து எந்த சமீபத்திய உச்ச நீதிமன்ற சரித்திரமான தீர்ப்பில் பயன்படுத்தப்பட்டது?",
+        "options": [
+          "நவ்தேஜ் சிங் ஜோஹர் vs இந்திய ஒன்றியம் (2018) — ஓரினப்பால் உறவை குற்றமுக்தமாக்குவது",
+          "ஸ்ரேயா சிங்கல் vs இந்திய ஒன்றியம் (2015) — IT சட்டம் பிரிவு 66A நீக்கம்",
+          "NJAC தீர்ப்பு (2015) — தேசிய நீதித்துறை நியமன ஆணையம் நீக்கம்",
+          "A மற்றும் C இரண்டும்"
+        ],
+        "explanation": "அரசியலமைப்பு நைதீகம் — அரசியலமைப்பின் கண்ணியம், சுயாட்சி மற்றும் சுதந்திரத்தின் தார்மீக தரிசனத்தை படிப்பது — நவ்தேஜ் சிங் ஜோஹர் மற்றும் NJAC தீர்ப்பு இரண்டிலும் பிரபல மக்கள் நைதீகத்தை மேற்கொள்ள வெளிப்படையாக பயன்படுத்தப்பட்டது."
+      },
+      "answer": 3
+    },
+    {
+      "id": "polity-030",
+      "topic": "Judiciary & Supreme Court",
+      "en": {
+        "q": "The NJAC (National Judicial Appointments Commission) was struck down by the Supreme Court in 2015 because it:",
+        "options": [
+          "Violated the federal structure of the Constitution",
+          "Undermined judicial independence, which is part of the basic structure",
+          "Was passed without following the required special majority",
+          "Conflicted with an existing treaty obligation"
+        ],
+        "explanation": "In Supreme Court Advocates-on-Record Association v. Union of India (2015), the bench held that the NJAC compromised judicial independence, a basic structure element."
+      },
+      "ta": {
+        "q": "NJAC (தேசிய நீதித்துறை நியமன ஆணையம்) 2015 இல் உச்ச நீதிமன்றத்தால் நீக்கப்பட்டது ஏனென்றால்:",
+        "options": [
+          "அரசியலமைப்பின் கூட்டாட்சி கட்டமைப்பை மீறியது",
+          "அடிப்படை கட்டமைப்பின் ஒரு பகுதியான நீதித்துறை சுதந்திரத்தை பலவீனப்படுத்தியது",
+          "தேவையான சிறப்பு பெரும்பான்மையை பின்பற்றாமல் நிறைவேற்றப்பட்டது",
+          "ஏற்கெனவே உள்ள உடன்படிக்கை கடமையுடன் மோதியது"
+        ],
+        "explanation": "உச்ச நீதிமன்ற வழக்கறிஞர்கள்-பதிவேட்டில் சம்மேளனம் vs இந்திய ஒன்றியம் (2015) வழக்கில், அமர்வு NJAC நீதித்துறை சுதந்திரத்தை, ஒரு அடிப்படை கட்டமைப்பு கூறை, சமரசம் செய்தது என்று கூறியது."
+      },
+      "answer": 1
+    },
+    {
+      "id": "polity-037",
+      "topic": "Judiciary & Supreme Court",
+      "en": {
+        "q": "Which of the following is NOT a ground for disqualification of a Member of Parliament under the Tenth Schedule?",
+        "options": [
+          "Voting against the direction of the party whip on a confidence motion",
+          "Abstaining from voting against the whip",
+          "Being expelled from the party by an external authority (not the party itself)",
+          "Voluntarily giving up membership of the political party"
+        ],
+        "explanation": "Disqualification under the Tenth Schedule does not apply when a member is expelled by an outside authority — only voluntary giving up of membership or whip violation triggers it."
+      },
+      "ta": {
+        "q": "பத்தாவது அட்டவணையின் கீழ் நாடாளுமன்ற உறுப்பினரை தகுதியிழக்கச் செய்வதற்கான காரணமாக இல்லாதது எது?",
+        "options": [
+          "நம்பிக்கை தீர்மானத்தில் கட்சி விப் திசைக்கு எதிராக வாக்களிப்பது",
+          "விப் இல் இருந்து வாக்களிக்காமல் தவிர்ப்பது",
+          "வெளி அதிகாரியால் (கட்சியே அல்ல) கட்சியிலிருந்து பதவி நீக்கம்",
+          "அரசியல் கட்சி உறுப்பினரிடமிருந்து தன்னிச்சையாக விலகுவது"
+        ],
+        "explanation": "பத்தாவது அட்டவணையின் கீழ் தகுதியிழப்பு ஒரு உறுப்பினர் வெளி அதிகாரியால் பதவி நீக்கம் செய்யப்படும்போது பொருந்தாது — தன்னிச்சையாக உறுப்பினரிடமிருந்து விலகுவது அல்லது விப் மீறல் மட்டுமே தூண்டுகிறது."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-005",
+      "topic": "Local Self-Government & Panchayati Raj",
+      "en": {
+        "q": "The 73rd Constitutional Amendment Act, 1992 relates to:",
+        "options": [
+          "Anti-defection law",
+          "Reservation for OBCs",
+          "Panchayati Raj institutions",
+          "Right to Education"
+        ],
+        "explanation": "The 73rd Constitutional Amendment Act, 1992 added Part IX to the Constitution (Articles 243–243O) and the 11th Schedule, providing constitutional status and a framework for Panchayati Raj institutions."
+      },
+      "ta": {
+        "q": "1992 ஆம் ஆண்டின் 73 வது அரசியலமைப்பு திருத்தச் சட்டம் எதனை பற்றியது?",
+        "options": [
+          "கட்சி தாவல் தடுப்புச் சட்டம்",
+          "பிற்படுத்தப்பட்டோருக்கு இடஒதுக்கீடு",
+          "பஞ்சாயத்து ராஜ் நிறுவனங்கள்",
+          "கல்விக்கான உரிமை"
+        ],
+        "explanation": "73 வது அரசியலமைப்பு திருத்தச் சட்டம் 1992, அரசியலமைப்பில் பகுதி IX (சட்டப்பிரிவுகள் 243–243O) மற்றும் 11 வது அட்டவணையை சேர்த்தது. பஞ்சாயத்து ராஜ் நிறுவனங்களுக்கு அரசியலமைப்பு அந்தஸ்தும் கட்டமைப்பும் வழங்கியது."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-025",
+      "topic": "Local Self-Government & Panchayati Raj",
+      "en": {
+        "q": "The Panchayati Raj system in India was constitutionalised by which amendment?",
+        "options": [
+          "86th Amendment 2002",
+          "73rd Amendment 1992",
+          "42nd Amendment 1976",
+          "74th Amendment 1992"
+        ],
+        "explanation": "The 73rd Constitutional Amendment (1992) added Part IX and the 11th Schedule, giving constitutional status to Panchayats and mandating elections, reservation, and devolution of power."
+      },
+      "ta": {
+        "q": "இந்தியாவில் பஞ்சாயத்தி ராஜ் முறை எந்த திருத்தத்தால் அரசியலமைப்பு அந்தஸ்து பெற்றது?",
+        "options": [
+          "86வது திருத்தம் 2002",
+          "73வது திருத்தம் 1992",
+          "42வது திருத்தம் 1976",
+          "74வது திருத்தம் 1992"
+        ],
+        "explanation": "73வது அரசியலமைப்பு திருத்தம் (1992) பகுதி IX மற்றும் 11வது அட்டவணையை சேர்த்தது, பஞ்சாயத்துகளுக்கு அரசியலமைப்பு அந்தஸ்து வழங்கி தேர்தல்கள், ஒதுக்கீடு மற்றும் அதிகார பரவலாக்கத்தை கட்டாயமாக்கியது."
+      },
+      "answer": 1
+    },
+    {
+      "id": "polity-060",
+      "topic": "Local Self-Government & Panchayati Raj",
+      "en": {
+        "q": "The 73rd Constitutional Amendment (1992) is associated with",
+        "options": [
+          "Anti-defection",
+          "Municipalities",
+          "Right to Education",
+          "Panchayati Raj institutions"
+        ],
+        "explanation": "The 73rd Amendment gave constitutional status to Panchayati Raj (Part IX, 11th Schedule); the 74th covers urban local bodies."
+      },
+      "ta": {
+        "q": "73வது அரசியலமைப்பு திருத்தம் (1992) எதனைச் சார்ந்தது?",
+        "options": [
+          "எதிர்க்கட்சித் துரோகம்",
+          "நகராட்சிகள்",
+          "கல்வி உரிமை",
+          "பஞ்சாயத்து ராஜ் நிறுவனங்கள்"
+        ],
+        "explanation": "73வது திருத்தம் பஞ்சாயத்து ராஜ் அமைப்புகளுக்கு அரசியலமைப்புச் சாசன அந்தஸ்து அளித்தது (பகுதி IX, 11வது அட்டவணை); 74வது திருத்தம் நகர்ப்புற உள்ளூராட்சி அமைப்புகளை உள்ளடக்கியது."
+      },
+      "answer": 3
+    },
+    {
+      "id": "polity-061",
+      "topic": "Local Self-Government & Panchayati Raj",
+      "en": {
+        "q": "The three-tier Panchayati Raj system was first recommended by the",
+        "options": [
+          "Sarkaria Commission",
+          "Ashok Mehta Committee",
+          "Balwant Rai Mehta Committee",
+          "Swaran Singh Committee"
+        ],
+        "explanation": "The Balwant Rai Mehta Committee (1957) recommended the three-tier structure: village, block and district."
+      },
+      "ta": {
+        "q": "மூன்று அடுக்கு பஞ்சாயத்து ராஜ் அமைப்பை முதலில் பரிந்துரைத்தவர் யார்?",
+        "options": [
+          "சர்காரியா ஆணையம்",
+          "அசோக் மேத்தா குழு",
+          "பல்வந்த் ராய் மேத்தா குழு",
+          "சுவரன் சிங் குழு"
+        ],
+        "explanation": "பல்வந்த் ராய் மேத்தா குழு (1957) மூன்று அடுக்கு அமைப்பை பரிந்துரைத்தது: கிராமம், வட்டம் மற்றும் மாவட்டம்."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-082",
+      "topic": "Local Self-Government & Panchayati Raj",
+      "en": {
+        "q": "Which Directive Principle directs the State to organise village panchayats?",
+        "options": [
+          "Article 50",
+          "Article 45",
+          "Article 44",
+          "Article 40"
+        ],
+        "explanation": "Article 40 directs the State to organise village panchayats as units of self-government."
+      },
+      "ta": {
+        "q": "கிராம பஞ்சாயத்துகளை அமைக்க மாநிலத்தை வழிநடத்தும் வழிகாட்டும் கோட்பாடு எது?",
+        "options": [
+          "பிரிவு 50",
+          "பிரிவு 45",
+          "பிரிவு 44",
+          "பிரிவு 40"
+        ],
+        "explanation": "அருச்சு 40, கிராம பஞ்சாயத்துகளை சுயாட்சி அலகுகளாக அமைக்க மாநிலத்தை வழிநடத்துகிறது."
+      },
+      "answer": 3
+    },
+    {
+      "id": "polity-001",
+      "topic": "Making of the Constitution",
+      "en": {
+        "q": "The Indian Constitution was adopted by the Constituent Assembly on which date?",
+        "options": [
+          "15 August 1947",
+          "26 January 1950",
+          "26 November 1949",
+          "2 September 1946"
+        ],
+        "explanation": "The Constituent Assembly formally adopted the Constitution of India on 26 November 1949, which is celebrated as Constitution Day (Samvidhan Divas). It came into force on 26 January 1950."
+      },
+      "ta": {
+        "q": "இந்திய அரசியலமைப்பு அரசியலமைப்பு சபையால் எந்த தேதியில் ஏற்றுக்கொள்ளப்பட்டது?",
+        "options": [
+          "1947 ஆகஸ்ட் 15",
+          "1950 ஜனவரி 26",
+          "1949 நவம்பர் 26",
+          "1946 செப்டம்பர் 2"
+        ],
+        "explanation": "அரசியலமைப்பு சபை 1949 நவம்பர் 26 அன்று இந்திய அரசியலமைப்பை அதிகாரப்பூர்வமாக ஏற்றுக்கொண்டது. இந்த நாள் அரசியலமைப்பு தினமாக (சம்விதான் திவஸ்) கொண்டாடப்படுகிறது. இது 1950 ஜனவரி 26 அன்று நடைமுறைக்கு வந்தது."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-040",
+      "topic": "Making of the Constitution",
+      "en": {
+        "q": "The Constituent Assembly of India held its first meeting on",
+        "options": [
+          "9 December 1946",
+          "26 January 1950",
+          "26 November 1949",
+          "15 August 1947"
+        ],
+        "explanation": "The Constituent Assembly first met on 9 December 1946; Dr. Sachchidananda Sinha was its temporary chairman."
+      },
+      "ta": {
+        "q": "இந்திய அரசியலமைப்புச் சபை தனது முதல் கூட்டத்தை எப்போது நடத்தியது?",
+        "options": [
+          "9 டிசம்பர் 1946",
+          "26 ஜனவரி 1950",
+          "26 நவம்பர் 1949",
+          "15 ஆகஸ்ட் 1947"
+        ],
+        "explanation": "அரசியலமைப்புச் சபை முதல் முறையாக 9 டிசம்பர் 1946 அன்று கூடியது; டாக்டர் சச்சிதானந்த சின்ஹா அதன் தற்காலிக தலைவராக இருந்தார்."
+      },
+      "answer": 0
+    },
+    {
+      "id": "polity-041",
+      "topic": "Making of the Constitution",
+      "en": {
+        "q": "The Chairman of the Drafting Committee of the Indian Constitution was",
+        "options": [
+          "B. N. Rau",
+          "B. R. Ambedkar",
+          "Rajendra Prasad",
+          "Jawaharlal Nehru"
+        ],
+        "explanation": "Dr. B. R. Ambedkar chaired the seven-member Drafting Committee and is regarded as the chief architect of the Constitution."
+      },
+      "ta": {
+        "q": "இந்திய அரசியலமைப்பின் வரைவு குழுவின் தலைவராக இருந்தவர் யார்?",
+        "options": [
+          "பி. என். ராவ்",
+          "பி. ஆர். அம்பேத்கர்",
+          "ராஜேந்திர பிரசாத்",
+          "ஜவஹர்லால் நேரு"
+        ],
+        "explanation": "டாக்டர் பி. ஆர். அம்பேத்கர் ஏழு உறுப்பினர்களைக் கொண்ட வரைவு குழுவின் தலைவராக இருந்தார் மற்றும் அரசியலமைப்பின் முதன்மை வடிவமைப்பாளராக கருதப்படுகிறார்."
+      },
+      "answer": 1
+    },
+    {
+      "id": "polity-042",
+      "topic": "Making of the Constitution",
+      "en": {
+        "q": "How long did the Constituent Assembly take to frame the Constitution?",
+        "options": [
+          "1 year and 6 months",
+          "2 years, 11 months and 18 days",
+          "5 years",
+          "Exactly 2 years"
+        ],
+        "explanation": "It took 2 years, 11 months and 18 days; the Constitution was adopted on 26 November 1949."
+      },
+      "ta": {
+        "q": "அரசியலமைப்பை உருவாக்க அரசியலமைப்புச் சபைக்கு எவ்வளவு காலம் எடுத்தது?",
+        "options": [
+          "1 வருடம் மற்றும் 6 மாதங்கள்",
+          "2 ஆண்டுகள், 11 மாதங்கள் மற்றும் 18 நாட்கள்",
+          "5 ஆண்டுகள்",
+          "சரியாக 2 ஆண்டுகள்"
+        ],
+        "explanation": "அரசியலமைப்பை உருவாக்க 2 ஆண்டுகள், 11 மாதங்கள் மற்றும் 18 நாட்கள் எடுத்தது; 26 நவம்பர் 1949 அன்று அரசியலமைப்பு ஏற்றுக்கொள்ளப்பட்டது."
+      },
+      "answer": 1
+    },
+    {
+      "id": "polity-069",
+      "topic": "Making of the Constitution",
+      "en": {
+        "q": "Who was the temporary Chairman of the Constituent Assembly at its first meeting?",
+        "options": [
+          "Jawaharlal Nehru",
+          "Dr. Rajendra Prasad",
+          "Dr. Sachchidananda Sinha",
+          "B.R. Ambedkar"
+        ],
+        "explanation": "Dr. Sachchidananda Sinha presided as the temporary Chairman at the first meeting of the Constituent Assembly."
+      },
+      "ta": {
+        "q": "அரசியலமைப்புச் சபையின் முதல் கூட்டத்தில் தற்காலிகத் தலைவராக இருந்தவர் யார்?",
+        "options": [
+          "ஜவஹர்லால் நேரு",
+          "டாக்டர். ராஜேந்திர பிரசாத்",
+          "டாக்டர். சச்சிதானந்த சின்ஹா",
+          "பி.ஆர். அம்பேத்கர்"
+        ],
+        "explanation": "டாக்டர். சச்சிதானந்த சின்ஹா அரசியலமைப்புச் சபையின் முதல் கூட்டத்தில் தற்காலிகத் தலைவராக இருந்தார்."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-012",
+      "topic": "Parliament",
+      "en": {
+        "q": "The minimum age to become a member of the Rajya Sabha is:",
+        "options": [
+          "21 years",
+          "25 years",
+          "30 years",
+          "35 years"
+        ],
+        "explanation": "According to Article 84 of the Indian Constitution, a person must be at least 30 years of age to become a member of the Rajya Sabha (Council of States)."
+      },
+      "ta": {
+        "q": "ராஜ்ய சபா உறுப்பினராக சேர குறைந்தபட்ச வயது எவ்வளவு?",
+        "options": [
+          "21 வயது",
+          "25 வயது",
+          "30 வயது",
+          "35 வயது"
+        ],
+        "explanation": "இந்திய அரசியலமைப்பின் சட்டப்பிரிவு 84 இன்படி, ராஜ்ய சபை (மாநிலங்களவை) உறுப்பினராக ஒருவர் குறைந்தபட்சம் 30 வயது நிரம்பியிருக்க வேண்டும்."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-017",
+      "topic": "Parliament",
+      "en": {
+        "q": "The 'Zero Hour' in Indian Parliament refers to:",
+        "options": [
+          "The first hour of Parliamentary proceedings",
+          "The time period starting at noon when members can raise urgent matters without prior notice",
+          "A special session held at midnight",
+          "The time allocated for Question Hour"
+        ],
+        "explanation": "Zero Hour begins at noon (hence 'zero') immediately after Question Hour. Members can raise urgent matters of public importance without prior notice during this time."
+      },
+      "ta": {
+        "q": "இந்திய நாடாளுமன்றத்தில் 'ஜீரோ அவர்' என்பது எதை குறிக்கிறது?",
+        "options": [
+          "நாடாளுமன்ற நடவடிக்கைகளின் முதல் மணி நேரம்",
+          "நண்பகலில் தொடங்கும் காலம் — அங்கு உறுப்பினர்கள் முன் அறிவிப்பு இல்லாமல் அவசர விஷயங்களை எழுப்பலாம்",
+          "நள்ளிரவில் நடைபெறும் சிறப்பு அமர்வு",
+          "கேள்வி நேரத்திற்கு ஒதுக்கப்பட்ட நேரம்"
+        ],
+        "explanation": "ஜீரோ அவர் நண்பகலில் (அதனால் 'ஜீரோ' என்று அழைக்கப்படுகிறது) கேள்வி நேரம் முடிந்த உடனே தொடங்குகிறது. இந்த நேரத்தில் உறுப்பினர்கள் முன் அறிவிப்பு இல்லாமல் பொது முக்கியத்துவமுள்ள அவசர விஷயங்களை எழுப்பலாம்."
+      },
+      "answer": 1
+    },
+    {
+      "id": "polity-031",
+      "topic": "Parliament",
+      "en": {
+        "q": "Under the Indian Constitution, money bills can be introduced in:",
+        "options": [
+          "State Legislative Assemblies with Central concurrence",
+          "Lok Sabha only",
+          "Rajya Sabha only with Presidential recommendation",
+          "Either House of Parliament"
+        ],
+        "explanation": "Article 110 defines Money Bills; Article 109 mandates they be introduced only in Lok Sabha. Rajya Sabha can only recommend amendments — Lok Sabha may accept or reject them."
+      },
+      "ta": {
+        "q": "இந்திய அரசியலமைப்பின் கீழ், பண மசோதாக்கள் எங்கே அறிமுகப்படுத்தப்படலாம்?",
+        "options": [
+          "மத்திய சம்மதத்துடன் மாநில சட்டமன்றங்களில்",
+          "லோக்சபாவில் மட்டும்",
+          "குடியரசுத் தலைவர் பரிந்துரையுடன் ராஜ்யசபாவில் மட்டும்",
+          "நாடாளுமன்றத்தின் எந்த சபையிலும்"
+        ],
+        "explanation": "பிரிவு 110 பண மசோதாக்களை வரையறுக்கிறது; பிரிவு 109 அவை லோக்சபாவில் மட்டுமே அறிமுகப்படுத்தப்பட வேண்டும் என்று கட்டாயமாக்குகிறது. ராஜ்யசபா திருத்தங்களை பரிந்துரைக்க மட்டுமே முடியும் — லோக்சபா அவற்றை ஏற்கலாம் அல்லது நிராகரிக்கலாம்."
+      },
+      "answer": 1
+    },
+    {
+      "id": "polity-034",
+      "topic": "Parliament",
+      "en": {
+        "q": "A no-confidence motion against the Council of Ministers can be moved in:",
+        "options": [
+          "Rajya Sabha",
+          "Lok Sabha",
+          "Either House",
+          "A joint sitting of both Houses"
+        ],
+        "explanation": "Article 75(3) makes the Council of Ministers collectively responsible to the Lok Sabha. A no-confidence motion is therefore only meaningful and admissible in Lok Sabha."
+      },
+      "ta": {
+        "q": "அமைச்சர்கள் சபைக்கு எதிராக நம்பிக்கையில்லா தீர்மானம் எங்கே நகர்த்தப்படலாம்?",
+        "options": [
+          "ராஜ்யசபா",
+          "லோக்சபா",
+          "எந்தவொரு சபையிலும்",
+          "இரு சபைகளின் கூட்டு அமர்வில்"
+        ],
+        "explanation": "பிரிவு 75(3) அமைச்சர்கள் சபையை லோக்சபாவிற்கு கூட்டு பொறுப்பாக்குகிறது. ஆகவே நம்பிக்கையில்லா தீர்மானம் லோக்சபாவில் மட்டுமே அர்த்தமுள்ளதாகவும் அனுமதிக்கக்கூடியதாகவும் உள்ளது."
+      },
+      "answer": 1
+    },
+    {
+      "id": "polity-052",
+      "topic": "Parliament",
+      "en": {
+        "q": "The Council of Ministers is collectively responsible to",
+        "options": [
+          "The Lok Sabha",
+          "The Supreme Court",
+          "The President",
+          "The Rajya Sabha"
+        ],
+        "explanation": "Article 75: the Council of Ministers is collectively responsible to the Lok Sabha (the popular house)."
+      },
+      "ta": {
+        "q": "மந்திரிசபை யாருக்கு கூட்டாக பொறுப்பாக உள்ளது?",
+        "options": [
+          "லோக்சபா",
+          "உச்ச நீதிமன்றம்",
+          "ஜனாதிபதி",
+          "ராஜ்யசபா"
+        ],
+        "explanation": "பிரிவு 75: மந்திரிசபை லோக்சபாவுக்கு (மக்கள் அவை) கூட்டாக பொறுப்பாக உள்ளது."
+      },
+      "answer": 0
+    },
+    {
+      "id": "polity-008",
+      "topic": "Preamble & salient features",
+      "en": {
+        "q": "The concept of 'Secular' was added to the Preamble of the Indian Constitution by which amendment?",
+        "options": [
+          "44th Amendment",
+          "42nd Amendment",
+          "52nd Amendment",
+          "25th Amendment"
+        ],
+        "explanation": "The 42nd Constitutional Amendment Act, 1976 (during the Emergency) added the words 'Socialist', 'Secular', and 'Integrity' to the Preamble of the Indian Constitution."
+      },
+      "ta": {
+        "q": "'மதசார்பற்ற' என்ற கருத்து இந்திய அரசியலமைப்பின் முகப்புரையில் எந்த திருத்தம் மூலம் சேர்க்கப்பட்டது?",
+        "options": [
+          "44 வது திருத்தம்",
+          "42 வது திருத்தம்",
+          "52 வது திருத்தம்",
+          "25 வது திருத்தம்"
+        ],
+        "explanation": "42 வது அரசியலமைப்பு திருத்தச் சட்டம், 1976 (அவசரகால காலகட்டத்தில்) இந்திய அரசியலமைப்பின் முகப்புரையில் 'சமதர்மம்', 'மதசார்பற்ற', மற்றும் 'ஒருமைப்பாடு' என்ற சொற்களை சேர்த்தது."
+      },
+      "answer": 1
+    },
+    {
+      "id": "polity-018",
+      "topic": "Preamble & salient features",
+      "en": {
+        "q": "The Preamble to the Indian Constitution begins with the words 'We, the People of India' — this signifies that:",
+        "options": [
+          "Only elected representatives drafted the Constitution",
+          "The ultimate source of authority is the citizens of India",
+          "All citizens must participate in governance directly",
+          "The Constitution was approved by a referendum"
+        ],
+        "explanation": "'We, the People of India' in the Preamble reflects the principle of popular sovereignty — that the Constitution derives its authority from the people, not from any external or hereditary power."
+      },
+      "ta": {
+        "q": "இந்திய அரசியலமைப்பின் முகப்புரை 'நாம், இந்தியாவின் மக்கள்' என்று தொடங்குகிறது — இது எதை குறிக்கிறது?",
+        "options": [
+          "தேர்ந்தெடுக்கப்பட்ட பிரதிநிதிகள் மட்டுமே அரசியலமைப்பை வரைந்தனர்",
+          "அதிகாரத்தின் இறுதி ஆதாரம் இந்தியக் குடிமக்கள்",
+          "அனைத்து குடிமக்களும் நேரடியாக ஆட்சியில் பங்கேற்க வேண்டும்",
+          "அரசியலமைப்பு வாக்கெடுப்பு மூலம் ஒப்புதல் பெறப்பட்டது"
+        ],
+        "explanation": "முகப்புரையில் 'நாம், இந்தியாவின் மக்கள்' என்பது மக்கள் இறையாண்மை என்ற கொள்கையை பிரதிபலிக்கிறது — அரசியலமைப்பு தன் அதிகாரத்தை மக்களிடமிருந்து பெறுகிறது, எந்த வெளி அல்லது பரம்பரை அதிகாரத்திலிருந்தும் அல்ல."
+      },
+      "answer": 1
+    },
+    {
+      "id": "polity-043",
+      "topic": "Preamble & salient features",
+      "en": {
+        "q": "The words \"Socialist\", \"Secular\" and \"Integrity\" were added to the Preamble by which amendment?",
+        "options": [
+          "1st Amendment",
+          "42nd Amendment (1976)",
+          "44th Amendment (1978)",
+          "73rd Amendment"
+        ],
+        "explanation": "The 42nd Amendment Act, 1976 added Socialist, Secular and Integrity to the Preamble."
+      },
+      "ta": {
+        "q": "முகவரையில் \"சோசலிசம்\", \"மதச்சார்பின்மை\" மற்றும் \"ஒற்றுமை\" என்ற சொற்கள் எந்த திருத்தத்தின் மூலம் சேர்க்கப்பட்டன?",
+        "options": [
+          "1வது திருத்தம்",
+          "42வது திருத்தம் (1976)",
+          "44வது திருத்தம் (1978)",
+          "73வது திருத்தம்"
+        ],
+        "explanation": "42வது திருத்தச் சட்டம், 1976 முகவரையில் சோசலிசம், மதச்சார்பின்மை மற்றும் ஒற்றுமை ஆகியவற்றை சேர்த்��து."
+      },
+      "answer": 1
+    },
+    {
+      "id": "polity-044",
+      "topic": "Preamble & salient features",
+      "en": {
+        "q": "The idea of the Preamble was borrowed from the Constitution of",
+        "options": [
+          "United States of America",
+          "Ireland",
+          "Canada",
+          "United Kingdom"
+        ],
+        "explanation": "The concept of a Preamble was drawn from the US Constitution; the phrase \"We, the People\" echoes it."
+      },
+      "ta": {
+        "q": "முகவரையின் கருத்து எந்த நாட்டின் அரசியலமைப்பிலிருந்து கடன் எடுக்கப்பட்டது?",
+        "options": [
+          "அமெரிக்கா",
+          "அயர்லாந்து",
+          "கனடா",
+          "இங்கிலாந்து"
+        ],
+        "explanation": "முகவரையின் கருத்து அமெரிக்க அரசியலமைப்பிலிருந்து பெறப்பட்டது; \"நாம், மக்கள்\" என்ற சொற்றொடர் அதனை ஒத்துள்ளது."
+      },
+      "answer": 0
+    },
+    {
+      "id": "polity-073",
+      "topic": "Preamble & salient features",
+      "en": {
+        "q": "Which word in the Preamble indicates that India is not under the control of any external authority?",
+        "options": [
+          "Republic",
+          "Socialist",
+          "Sovereign",
+          "Secular"
+        ],
+        "explanation": "Sovereign means India has complete authority over its internal and external affairs."
+      },
+      "ta": {
+        "q": "முகவுரையில் எந்த சொல் இந்தியா எந்த வெளிநாட்டு அதிகாரத்திற்கும் உட்பட்டதல்ல என்பதை குறிக்கிறது?",
+        "options": [
+          "குடியரசு",
+          "சோசலிச",
+          "சார்வராஜ்யம்",
+          "மதச்சார்பின்மை"
+        ],
+        "explanation": "சுயாட்சி என்பது இந்தியா தனது உள்நாட்டு மற்றும் வெளிநாட்டு விவகாரங்களில் முழு அதிகாரம் கொண்டுள்ளது என்பதைக் குறிக்கிறது."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-010",
+      "topic": "State Government",
+      "en": {
+        "q": "The Tamil Nadu legislature is a:",
+        "options": [
+          "Bicameral legislature with Legislative Council",
+          "Unicameral legislature with only Legislative Assembly",
+          "Bicameral legislature with Rajya Sabha",
+          "Tricameral legislature"
+        ],
+        "explanation": "Tamil Nadu has a unicameral legislature consisting only of the Tamil Nadu Legislative Assembly (Vidhan Sabha). The Legislative Council (Vidhan Parishad) was abolished in 1986."
+      },
+      "ta": {
+        "q": "தமிழ்நாடு சட்டமன்றம் எத்தகையது?",
+        "options": [
+          "சட்டமன்ற மேலவையுடன் இரு அவை சட்டமன்றம்",
+          "சட்டமன்றம் மட்டுமே கொண்ட ஒரு அவை சட்டமன்றம்",
+          "ராஜ்ய சபையுடன் இரு அவை சட்டமன்றம்",
+          "மூன்று அவை சட்டமன்றம்"
+        ],
+        "explanation": "தமிழ்நாட்டில் தமிழ்நாடு சட்டமன்றம் (விதான சபை) மட்டுமே கொண்ட ஒரு அவை சட்டமன்றம் உள்ளது. சட்டமன்ற மேலவை (விதான பரிஷத்) 1986 ஆம் ஆண்டில் ஒழிக்கப்பட்டது."
+      },
+      "answer": 1
+    },
+    {
+      "id": "polity-020",
+      "topic": "State Government",
+      "en": {
+        "q": "Who among the following is the constitutional head of the Tamil Nadu state government?",
+        "options": [
+          "Chief Minister",
+          "Chief Justice of the Madras High Court",
+          "Governor",
+          "Home Minister"
+        ],
+        "explanation": "The Governor is the constitutional head of a state under Article 153, analogous to the President at the Union level. The Chief Minister is the real executive head."
+      },
+      "ta": {
+        "q": "பின்வருவோரில் தமிழ்நாடு மாநில அரசின் அரசியலமைப்பு தலைவர் யார்?",
+        "options": [
+          "முதலமைச்சர்",
+          "சென்னை உயர் நீதிமன்ற தலைமை நீதிபதி",
+          "ஆளுநர்",
+          "உள்துறை அமைச்சர்"
+        ],
+        "explanation": "ஆளுநர் சட்டப்பிரிவு 153 இன்படி மாநிலத்தின் அரசியலமைப்பு தலைவர் ஆவார். ஒன்றிய மட்டத்தில் குடியரசுத் தலைவருக்கு இணையானவர். முதலமைச்சர் உண்மையான நிர்வாக தலைவர்."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-029",
+      "topic": "State Government",
+      "en": {
+        "q": "The President of India is elected by an electoral college consisting of:",
+        "options": [
+          "All Members of Parliament only",
+          "All elected Members of Parliament and elected Members of State Legislative Assemblies",
+          "All elected Members of Parliament and both Houses of all State Legislatures",
+          "Elected Members of Lok Sabha and Rajya Sabha, and the Chief Ministers of all States"
+        ],
+        "explanation": "Under Article 54, the President is elected by elected MPs (Lok Sabha + Rajya Sabha) and elected MLAs of all state legislative assemblies (excluding nominated members and MLCs)."
+      },
+      "ta": {
+        "q": "இந்தியாவின் குடியரசுத் தலைவர் எதை கொண்ட தேர்தல் கல்லூரியால் தேர்ந்தெடுக்கப்படுகிறார்?",
+        "options": [
+          "நாடாளுமன்ற உறுப்பினர்கள் மட்டும்",
+          "நாடாளுமன்றத்தின் அனைத்து தேர்ந்தெடுக்கப்பட்ட உறுப்பினர்கள் மற்றும் மாநில சட்டமன்றங்களின் தேர்ந்தெடுக்கப்பட்ட உறுப்பினர்கள்",
+          "நாடாளுமன்றத்தின் அனைத்து தேர்ந்தெடுக்கப்பட்ட உறுப்பினர்கள் மற்றும் அனைத்து மாநில சட்டமன்றங்களின் இரு சபைகளும்",
+          "லோக்சபா மற்றும் ராஜ்யசபா தேர்ந்தெடுக்கப்பட்ட உறுப்பினர்கள் மற்றும் அனைத்து மாநிலங்களின் முதலமைச்சர்கள்"
+        ],
+        "explanation": "பிரிவு 54 இன் கீழ், குடியரசுத் தலைவர் தேர்ந்தெடுக்கப்பட்ட நாடாளுமன்ற உறுப்பினர்கள் (லோக்சபா + ராஜ்யசபா) மற்றும் அனைத்து மாநில சட்டமன்றங்களின் தேர்ந்தெடுக்கப்பட்ட சட்டமன்ற உறுப்பினர்களால் தேர்ந்தெடுக்கப்படுகிறார் (நியமிக்கப்பட்ட உறுப்பினர்கள் மற்றும் MLC கள் நீங்கலாக)."
+      },
+      "answer": 1
+    },
+    {
+      "id": "polity-038",
+      "topic": "State Government",
+      "en": {
+        "q": "The Tamil Nadu State Legislature consists of:",
+        "options": [
+          "Vidhan Sabha, Vidhan Parishad, and a nominated Governor's council",
+          "Vidhan Sabha and Vidhan Parishad (bicameral)",
+          "Legislative Assembly and a separate Upper House for districts",
+          "Only Vidhan Sabha (unicameral)"
+        ],
+        "explanation": "Tamil Nadu has a unicameral legislature — only the Legislative Assembly (234 seats). The state abolished its Legislative Council in 1986."
+      },
+      "ta": {
+        "q": "தமிழ்நாடு மாநில சட்டமன்றம் எதை கொண்டுள்ளது?",
+        "options": [
+          "விதான சபை, விதான பரிஷத் மற்றும் நியமிக்கப்பட்ட ஆளுநர் கவுன்சில்",
+          "விதான சபை மற்றும் விதான பரிஷத் (இரு சபை)",
+          "சட்டமன்றம் மற்றும் மாவட்டங்களுக்கான தனி மேல் சபை",
+          "விதான சபை மட்டும் (ஒரு சபை)"
+        ],
+        "explanation": "தமிழ்நாடு ஒரு சபை சட்டமன்றத்தை கொண்டுள்ளது — சட்டமன்றம் மட்டும் (234 இடங்கள்). மாநிலம் 1986 இல் தனது சட்டமன்ற சபையை ஒழித்தது. தற்போது 6 மாநிலங்கள் மட்டுமே இரு சபை சட்டமன்றங்களை கொண்டுள்ளன."
+      },
+      "answer": 3
+    },
+    {
+      "id": "polity-059",
+      "topic": "State Government",
+      "en": {
+        "q": "The Governor of a State is appointed by the",
+        "options": [
+          "Chief Justice of India",
+          "Chief Minister",
+          "State Legislature",
+          "President of India"
+        ],
+        "explanation": "Article 155: the Governor is appointed by the President and holds office during the President's pleasure."
+      },
+      "ta": {
+        "q": "ஒரு மாநிலத்தின் ஆளுநரை நியமிப்பவர் யார்?",
+        "options": [
+          "இந்திய தலைமை நீதிபதி",
+          "முதல்வர்",
+          "மாநில சட்டமன்றம்",
+          "இந்திய குடியரசுத் தலைவர்"
+        ],
+        "explanation": "அரசியலமைப்பு 155: ஆளுநரை குடியரசுத் தலைவர் நியமிக்கிறார் மற்றும் அவர் குடியரசுத் தலைவரின் இன்பத்திற்காக பதவியில் இருப்பார்."
+      },
+      "answer": 3
+    },
+    {
+      "id": "polity-004",
+      "topic": "Union Executive",
+      "en": {
+        "q": "Who appoints the Governor of a state in India?",
+        "options": [
+          "The Chief Minister of the state",
+          "The Prime Minister",
+          "The President of India",
+          "The Election Commission of India"
+        ],
+        "explanation": "Under Article 155 of the Indian Constitution, the Governor of a state is appointed by the President of India by warrant under his hand and seal."
+      },
+      "ta": {
+        "q": "இந்தியாவில் ஒரு மாநிலத்தின் ஆளுநரை யார் நியமிக்கிறார்?",
+        "options": [
+          "மாநிலத்தின் முதலமைச்சர்",
+          "பிரதமர்",
+          "இந்தியக் குடியரசுத் தலைவர்",
+          "இந்திய தேர்தல் ஆணையம்"
+        ],
+        "explanation": "இந்திய அரசியலமைப்பின் சட்டப்பிரிவு 155 இன் கீழ், ஒரு மாநிலத்தின் ஆளுநர் இந்தியக் குடியரசுத் தலைவரால் தன் கையொப்பம் மற்றும் முத்திரையுடன் நியமிக்கப்படுகிறார்."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-023",
+      "topic": "Union Executive",
+      "en": {
+        "q": "Under the Indian Constitution, the President can proclaim a National Emergency under Article 352 only on the written advice of:",
+        "options": [
+          "The Cabinet (Council of Ministers headed by PM)",
+          "The Parliament by a two-thirds majority",
+          "The Prime Minister alone",
+          "The Supreme Court Chief Justice"
+        ],
+        "explanation": "After the 44th Amendment, the President can proclaim Emergency only on the written advice of the Cabinet (not just the PM), reducing scope for misuse as in 1975."
+      },
+      "ta": {
+        "q": "இந்திய அரசியலமைப்பின் கீழ், குடியரசுத் தலைவர் பிரிவு 352 இன் கீழ் தேசிய அவசரகாலத்தை யாருடைய எழுத்துப்பூர்வ ஆலோசனையின் பேரில் மட்டுமே பிரகடனப்படுத்தலாம்?",
+        "options": [
+          "அமைச்சரவை (பிரதமர் தலைமையிலான அமைச்சர்கள் சபை)",
+          "மூன்றில் இரண்டு பங்கு பெரும்பான்மையால் நாடாளுமன்றம்",
+          "பிரதமர் மட்டும்",
+          "உச்ச நீதிமன்றத்தின் தலைமை நீதிபதி"
+        ],
+        "explanation": "44வது திருத்தத்திற்கு பிறகு, குடியரசுத் தலைவர் அமைச்சரவையின் எழுத்துப்பூர்வ ஆலோசனையின் பேரில் மட்டுமே அவசரகாலத்தை பிரகடனப்படுத்தலாம் (பிரதமர் மட்டும் அல்ல), 1975 போல் தவறாக பயன்படுத்தும் வாய்ப்பை குறைக்கிறது."
+      },
+      "answer": 0
+    },
+    {
+      "id": "polity-051",
+      "topic": "Union Executive",
+      "en": {
+        "q": "The President of India is elected by",
+        "options": [
+          "Direct vote of the people",
+          "The Lok Sabha alone",
+          "An electoral college of elected MPs and elected MLAs",
+          "The Council of Ministers"
+        ],
+        "explanation": "Article 54: the President is elected by an electoral college of elected members of both Houses of Parliament and the elected members of State Legislative Assemblies."
+      },
+      "ta": {
+        "q": "இந்தியாவின் குடியரசுத் தலைவர் யாரால் தேர்ந்தெடுக்கப்படுகிறார்?",
+        "options": [
+          "மக்களின் நேரடி வாக்கு",
+          "லோக்சபா மட்டும்",
+          "தேர்ந்தெடுக்கப்பட்ட எம்பிக்கள் மற்றும் தேர்ந்தெடுக்கப்பட்ட எம்எல்ஏக்களின் தேர்தல் கல்லூரி",
+          "மந்திரிசபை"
+        ],
+        "explanation": "பிரிவு 54: குடியரசுத் தலைவர் நாடாளுமன்றத்தின் இரு அவைகளின் தேர்ந்தெடுக்கப்பட்��� உறுப்பினர்கள் மற்றும் மாநில சட்டமன்றங்களின் தேர்ந்தெடுக்கப்பட்ட உறுப்பினர்களின் தேர்தல் கல்லூரியால் தேர்ந்தெடுக்கப்படுகிறார்."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-085",
+      "topic": "Union Executive",
+      "en": {
+        "q": "The President of India submits resignation to whom?",
+        "options": [
+          "Chief Justice of India",
+          "Speaker of Lok Sabha",
+          "Vice-President of India",
+          "Prime Minister"
+        ],
+        "explanation": "The President addresses a resignation letter to the Vice-President."
+      },
+      "ta": {
+        "q": "இந்திய குடியரசுத் தலைவர் தனது ராஜினாமாவை யாரிடம் சமர்ப்பிக்கிறார்?",
+        "options": [
+          "இந்திய தலைமை நீதிபதி",
+          "லோக்சபா சபாநாயகர்",
+          "இந்தியாவின் துணைத் தலைவர்",
+          "பிரதமர்"
+        ],
+        "explanation": "குடியரசுத் தலைவர் தனது ராஜினாமா கடிதத்தை துணைத் தலைவருக்கு அனுப்புகிறார்."
+      },
+      "answer": 2
+    },
+    {
+      "id": "polity-088",
+      "topic": "Union Executive",
+      "en": {
+        "q": "The Council of Ministers at the Union level is headed by the:",
+        "options": [
+          "Cabinet Secretary",
+          "President",
+          "Prime Minister",
+          "Vice-President"
+        ],
+        "explanation": "The Prime Minister heads the Union Council of Ministers."
+      },
+      "ta": {
+        "q": "மத்திய அமைச்சரவை தலைமை வகிப்பவர் யார்?",
+        "options": [
+          "மந்திரிசபை செயலாளர்",
+          "ஜனாதிபதி",
+          "முதலமைச்சர்",
+          "துணை ஜனாதிபதி"
+        ],
+        "explanation": "மத்திய அமைச்சரவை தலைமை பிரதமர் வகிக்கிறார்."
+      },
+      "answer": 2
+    }
+  ],
+  "exam": "tnpsc",
+  "subject": "polity",
+  "license": "Sample content for judging only; full bank at https://braingrain.in"
+}

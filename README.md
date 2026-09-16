@@ -44,7 +44,15 @@ Claude Desktop config:
 
 ## Content
 
-`data/sample-bank.json` ships **65 bilingual TNPSC Polity questions** (5 per topic across 13 topics) so the server runs offline for judging. Set `BRAINGRAIN_API_URL` to point at the live read-only bank API for the full catalogue.
+By default the server reads Brain Grain's **live app-packs** — public, read-only JSON at `https://braingrain.in/data/app-packs/<exam>/<subject>.json`. Exams: `tnpsc-group1`, `tnpsc-group2`, `tnpsc-group4` (alias `tnpsc`), `ctet`, `tntet`. Subjects for TNPSC: `polity`, `history`, `geography`, `economy`, `science`, `current`, `aptitude`. Every pack is bilingual (`q`/`q2`, `o`/`o2`, `e`/`e2`).
+
+`data/sample-bank.json` ships **65 bilingual TNPSC Polity questions** (5 per topic across 13 topics) as a fallback: set `BRAINGRAIN_OFFLINE=1` to force it, and it kicks in automatically if the network is down.
+
+| Env | Default | Purpose |
+|---|---|---|
+| `PORT` | `3333` | HTTP port |
+| `BRAINGRAIN_BANK_URL` | `https://braingrain.in/data/app-packs` | Pack base URL |
+| `BRAINGRAIN_OFFLINE` | unset | `1` → sample bank only |
 
 ## Alexa+
 

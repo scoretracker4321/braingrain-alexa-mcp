@@ -1,10 +1,11 @@
 // Question bank access.
 //
-// Two backends, chosen by environment:
-//   - BRAINGRAIN_API_URL set  → read-only HTTP API on the live Brain Grain bank
-//   - otherwise               → data/sample-bank.json shipped with this repo
+// Two backends:
+//   - BRAINGRAIN_BANK_URL set (default https://braingrain.in/data/app-packs)
+//     → the live Brain Grain app-packs, one JSON per exam/subject
+//   - BRAINGRAIN_OFFLINE=1  → data/sample-bank.json shipped with this repo
 //
-// Both return the same normalised shape so the tools never care which one is live.
+// Both are normalised to the same shape so the tools never care which is live.
 
 import { readFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
@@ -12,40 +13,79 @@ import path from "node:path";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const SAMPLE_PATH = path.join(here, "..", "data", "sample-bank.json");
+const BANK_URL = (process.env.BRAINGRAIN_BANK_URL || "https://braingrain.in/data/app-packs").replace(/\/$/, "");
+const OFFLINE = process.env.BRAINGRAIN_OFFLINE === "1";
 
-let cache = null;
+// Friendly exam names → pack folder. Group 4 is the default: broadest syllabus.
+const EXAM_ALIAS = { tnpsc: "tnpsc-group4", "tnpsc-group-1": "tnpsc-group1", "tnpsc-group-2": "tnpsc-group2", "tnpsc-group-4": "tnpsc-group4" };
+
+const packs = new Map(); // "exam/subject" → normalised question list
+const index = new Map(); // question id → question
+
+function remember(list) {
+  for (const q of list) index.set(q.id, q);
+  return list;
+}
+
+// Constitutional "Article" is பிரிவு in Tamil; some packs still carry the
+// machine-translation கட்டுரை (essay). Polity has no essay sense, so the swap is safe there.
+function fixArticle(s, subject) {
+  return subject === "polity" && typeof s === "string" ? s.replace(/கட்டுரை/g, "பிரிவு") : s;
+}
+
+function fromPack(raw, exam, subject) {
+  return raw.q.map((x) => ({
+    id: `${exam}:${subject}:${x.i}`,
+    exam,
+    subject,
+    topic: x.t || subject,
+    answer: x.a,
+    en: { q: x.q, options: x.o, explanation: x.e || "" },
+    ta: {
+      q: fixArticle(x.q2 || x.q, subject),
+      options: (x.o2 || x.o).map((o) => fixArticle(o, subject)),
+      explanation: fixArticle(x.e2 || x.e || "", subject),
+    },
+  }));
+}
 
 async function loadSample() {
-  if (cache) return cache;
   const raw = JSON.parse(await readFile(SAMPLE_PATH, "utf8"));
-  cache = raw.questions.map((q) => ({
-    id: q.id,
-    exam: raw.exam,
-    subject: raw.subject,
-    topic: q.topic,
-    answer: q.answer,
-    en: q.en,
-    ta: q.ta,
-  }));
-  return cache;
+  return raw.questions.map((q) => ({ id: q.id, exam: raw.exam, subject: raw.subject, topic: q.topic, answer: q.answer, en: q.en, ta: q.ta }));
 }
 
 async function loadRemote(exam, subject) {
-  const base = process.env.BRAINGRAIN_API_URL.replace(/\/$/, "");
-  const res = await fetch(`${base}/bank?exam=${encodeURIComponent(exam)}&subject=${encodeURIComponent(subject)}`);
-  if (!res.ok) throw new Error(`bank API ${res.status}`);
-  return res.json();
+  const res = await fetch(`${BANK_URL}/${encodeURIComponent(exam)}/${encodeURIComponent(subject)}.json`);
+  if (res.status === 404) return [];
+  if (!res.ok) throw new Error(`bank ${res.status} for ${exam}/${subject}`);
+  return fromPack(await res.json(), exam, subject);
+}
+
+export function resolveExam(exam = "tnpsc") {
+  const e = String(exam).toLowerCase().trim();
+  return EXAM_ALIAS[e] || e;
 }
 
 /** All questions for an exam/subject. Unknown exam/subject → empty list, never a throw. */
 export async function questions({ exam = "tnpsc", subject = "polity" } = {}) {
-  const all = process.env.BRAINGRAIN_API_URL ? await loadRemote(exam, subject) : await loadSample();
-  return all.filter((q) => q.exam === exam && q.subject === subject);
+  const e = resolveExam(exam);
+  const s = String(subject).toLowerCase().trim();
+  const key = `${e}/${s}`;
+  if (!packs.has(key)) {
+    let list;
+    try {
+      list = OFFLINE ? await loadSample() : await loadRemote(e, s);
+    } catch {
+      list = await loadSample(); // network down → still serve the sample
+    }
+    if (OFFLINE) list = list.filter((q) => q.exam === e && q.subject === s);
+    packs.set(key, remember(list));
+  }
+  return packs.get(key);
 }
 
 export async function byId(id) {
-  const all = process.env.BRAINGRAIN_API_URL ? [] : await loadSample();
-  return all.find((q) => q.id === id) || null;
+  return index.get(id) || null;
 }
 
 export async function topics({ exam, subject } = {}) {

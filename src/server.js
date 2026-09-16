@@ -19,7 +19,7 @@ export function app() {
   a.use(express.json({ limit: "1mb" }));
 
   a.get("/", (_req, res) => {
-    res.json({ name: "braingrain-quiz-coach", mcp: "/mcp", docs: "https://github.com/amulr/braingrain-alexa-mcp" });
+    res.json({ name: "braingrain-quiz-coach", mcp: "/mcp", docs: "https://github.com/scoretracker4321/braingrain-alexa-mcp" });
   });
 
   a.all("/mcp", async (req, res) => {
